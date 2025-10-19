@@ -10,7 +10,7 @@ Si en todos los pone claros. Si están claros todos todos.
 
 Si, en el archivo **Alumnos.csv** en municipio_nac salen algunas celdas en blanco. En provincia_nac en libro_escolaridad, cod_postal, expediente, ampa, dictamen, fecha_resolucion, informe_psicoped, informe_posib, tipo_matricula, num_repeticion  también hay datos en blanco.
 
-En el archivo **Calificaciones.csv** la columna contenido está la mayoría con n´umeros del .
+En el archivo **Calificaciones.csv** la columna contenido está la mayoría con numeros del 160 al 200.
 
 En el archivo **Cursos.csv** la columna padre está en blanco
 
@@ -36,14 +36,44 @@ En la tabla **Calificaciones.csv** tiene tres claves para hacer al dato único, 
 
 **Alumnos.csv** se relaciona con **cursos.csv** en la columna curso.Alumnos y la de codigo.alumno Y también se pueden ver por anyo y fecha de exportacion.
 
-
 **Cursos.csv** tiene dos columnas que tienen una relación ya que hay datos de curso.codigo que tiene el mismo valor que curso.padre, es una relación padre e hijo.
 
 **Cursos.csv** se relaciona con **Calificaciones.csv** en la columna enseñanza.Cusos junto a codigo.Cursos y la de Calificaciones esenseñanza.Calificaciones junto a curso.Calificaciones.
-
 
 La relación entre **Horas.csv** y **Modulos.csv** son las columnas código.Horas y la de codigo.Modulos. Y esto se confirma porque si ves que en las dos columnas de código pone el mismo código, verás que en las columnas NOMBRE_CAS.Horas y nombre_cas.mudulos sale el mismo nombre de la clase. Si en una tabla pone codigo 156 y ciclo Inglés en la otra tabla saldrá lo mismo codigo 156 nombre Inglés.
 
 En la tabla **Alumnos.csv** la clave única es el NIA aunque también están los expediente que aunque sean clave unica no es la clave funcional de la tabla **Alumnos.csv**.
 
 La relación entre **Grupos.txt** y **Cursos.txt** se establece mediante una coincidencia de la abreviatura del curso contenida en la columna nombre de Grupos.txt con la denominación completa del programa que aparece en las columnas nombre_cas o abreviatura de Cursos.txt ya que no existe una clave foránea explícita y directa entre ambas tablas en los datos proporcionados.
+
+*** Mapa mental ***
+**Alumnos**
+
+PK. nia
+PK. codigo
+
+**Calificaciones**
+
+PK. nia, contenido, evaluacion 
+FK. alumnos (nia) De dónde proviene: Alumnos.txt (columna nia) 
+FK. contenido De dónde proviene: Modulos.txt (columna codigo)
+
+**Cursos**
+
+PK. codigo 
+FK. padre De dónde proviene: Cursos.txt (columna codigo)
+
+**Modulos**
+
+PK. codigo que forma parte de una clave compuesta junto a enseñanza y curso
+FK. codigo De dónde proviene: Horas.txt (columna CODIGO)
+FK. enseñanza, curso De dónde provienen: Cursos.txt (columna codigo)
+
+**Horas**
+
+PK. CODIGO
+
+**Grupos**
+
+PK. codigo 
+
