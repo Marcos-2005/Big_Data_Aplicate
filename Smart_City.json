@@ -1,0 +1,112 @@
+{
+  "sensores": [
+    {
+      "id": "Sensor_Temperatura_1",
+      "tipo": "Sensor de Temperatura",
+      "ubicacion": "Sala Principal",
+      "Tiempo": {
+        "tipo": "DATETIME",
+        "value": "2005/03/10 10:30:00"
+      },
+      "atributos": {
+        "temperatura": {
+          "tipo": "Number",
+          "unidad": "°C",
+          "value": 24.0
+        },
+        "humedad_relativa": {
+          "tipo": "Number",
+          "unidad": "%",
+          "value": 45.2
+        },
+        "presion_atmosferica": {
+          "tipo": "Number",
+          "unidad": "hPa",
+          "value": 1013.2
+        },
+        "bateria": {
+          "tipo": "Number",
+          "unidad": "%",
+          "value": 87
+        }
+      }
+    },
+    {
+      "id": "Sensor_CO2_1",
+      "tipo": "Sensor de CO2",
+      "ubicacion": "Oficina",
+      "Tiempo": {
+        "tipo": "DATETIME",
+        "value": "2005/03/10 10:30:00"
+      },
+      "atributos": {
+        "co2": {
+          "tipo": "Number",
+          "unidad": "ppm",
+          "value": 650
+        },
+        "compuestos_organicos_volatiles": {
+          "tipo": "Number",
+          "unidad": "ppb",
+          "value": 120
+        },
+        "temperatura": {
+          "tipo": "Number",
+          "unidad": "°C",
+          "value": 23.5
+        },
+        "humedad_relativa": {
+          "tipo": "Number",
+          "unidad": "%",
+          "value": 42.0
+        },
+        "bateria": {
+          "tipo": "Number",
+          "unidad": "%",
+          "value": 76
+        }
+      }
+    },
+    {
+      "id": "Sensor_Agua_1",
+      "tipo": "Sensor de Calidad de Agua",
+      "ubicacion": "Tanque Principal",
+      "Tiempo": {
+        "tipo": "DATETIME",
+        "value": "2005/03/10 10:30:00"
+      },
+      "atributos": {
+        "ph": {
+          "tipo": "Number",
+          "unidad": "pH",
+          "value": 7.2
+        },
+        "turbidez": {
+          "tipo": "Number",
+          "unidad": "NTU",
+          "value": 1.1
+        },
+        "conductividad": {
+          "tipo": "Number",
+          "unidad": "µS/cm",
+          "value": 320
+        },
+        "temperatura": {
+          "tipo": "Number",
+          "unidad": "°C",
+          "value": 19.5
+        },
+        "solidos_disueltos_totales": {
+          "tipo": "Number",
+          "unidad": "ppm",
+          "value": 450
+        },
+        "bateria": {
+          "tipo": "Number",
+          "unidad": "%",
+          "value": 92
+        }
+      }
+    }
+  ]
+}
