@@ -1,0 +1,207 @@
+{
+	"info": {
+		"_postman_id": "44873833-979bab05-eb09-468c-8d91-e890611616d4",
+		"name": "Clase BD",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "actualizar_subscripcion",
+			"item": [
+				{
+					"name": "http://localhost:1026/v2/subscriptions/68fa495a91dcffcc7903e4bc",
+					"id": "44873833-5acfd506-dd4d-48ec-afad-d371448c60f0",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"notification\": {\n    \"http\": { \"url\": \"http://localhost:1028/notify\" },\n    \"attrs\": [\n      \"bateria\",\n      \"conductividad\",\n      \"descripcion\",\n      \"ph\",\n      \"solidos_disueltos_totales\",\n      \"temperatura\",\n      \"turbidez\",\n      \"ubicacion\",\n      \"Tiempo\"\n    ]\n  }\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:1026/v2/subscriptions/68fa545791dcffcc7903e4bf",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "1026",
+							"path": [
+								"v2",
+								"subscriptions",
+								"68fa545791dcffcc7903e4bf"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "44873833-0b72801d-c92a-467c-9eed-b716f8d14896"
+		},
+		{
+			"name": "ver_entidades_y_subscripciones",
+			"item": [
+				{
+					"name": "http://localhost:1026//v2/entities",
+					"id": "44873833-5e2578a7-3f39-400e-83db-988aa811c29d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:1026//v2/entities",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "1026",
+							"path": [
+								"",
+								"v2",
+								"entities"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:1026//v2/subscriptions",
+					"id": "44873833-394b5fd8-2063-47f9-a328-b27cf25b3c82",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:1026//v2/entities",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "1026",
+							"path": [
+								"",
+								"v2",
+								"entities"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:1026/v2/entities/Sensor_Temperatura_1",
+					"id": "44873833-914e378c-e1fa-454b-bc12-f5e3d63fc643",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:1026/v2/entities/Sensor_Temperatura_1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "1026",
+							"path": [
+								"v2",
+								"entities",
+								"Sensor_Temperatura_1"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "44873833-03e37ce5-9b6a-4945-b9c5-f174cffb519d"
+		},
+		{
+			"name": "delete",
+			"item": [
+				{
+					"name": "http://localhost:1026/v2/subscriptions/6903850914ef6387ea01d70b",
+					"id": "44873833-c13b5c2c-ef68-4dcd-864c-dd9418a4e48d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:1026/v2/subscriptions/6903850914ef6387ea01d70b",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "1026",
+							"path": [
+								"v2",
+								"subscriptions",
+								"6903850914ef6387ea01d70b"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "44873833-5a216d1f-556a-489d-92fc-823a5181ad9f"
+		},
+		{
+			"name": "creación_subscripcion",
+			"item": [
+				{
+					"name": "http://localhost:1026//v2/subscriptions",
+					"id": "44873833-90e2313d-aa33-4d30-b2f0-c8bb1abe27d8",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"description\": \"Histórico de sensores\",\n  \"subject\": {\n    \"entities\": [\n      { \"idPattern\": \"Sensor_.*\", \"type\": \"Sensor\" }\n    ]\n  },\n  \"notification\": {\n    \"http\": {\n      \"url\": \"http://quantumleap:8668/v2/notify\"\n    },\n    \"attrs\": [\n      \"bateria\",\n      \"conductividad\",\n      \"ph\",\n      \"temperatura\",\n      \"turbidez\",\n      \"co2\",\n      \"humedad_relativa\",\n      \"Tiempo\"\n    ]\n  },\n  \"throttling\": 1\n}\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:1026//v2/subscriptions",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "1026",
+							"path": [
+								"",
+								"v2",
+								"subscriptions"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "44873833-72642179-7b30-421e-921e-601d26eb0818"
+		}
+	]
+}
