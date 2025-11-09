@@ -49,26 +49,25 @@ academico-data-lake/
 │       │   └── evaluation_3/
 │       └── 2023-2024/
 │           └── etc...
-academico-data-lake/
 ├── gold/
-│   ├── kpi_ipc_0201_por_grupo/
+│   ├── resultados_por_grupo/
 │   │   ├── 2024-2025/
 │   │   │   ├── evaluation_1/
-│   │   │   │   └── ipc_0201_grupos.parquet      
+│   │   │   │   └── resumen_grupos.parquet      
 │   │   │   ├── evaluation_2/
 │   │   │   └── evaluation_3/
 │   │   └── 2023-2024/
 │   │       └── etc...
 │
-│   ├── kpi_ipc_0201_por_curso_anual/
+│   ├── resultados_por_curso/
 │   │   ├── 2024-2025/
-│   │   │   └── ipc_0201_anual.parquet          
+│   │   │   └── resumen_curso.parquet          
 │   │   └── 2023-2024/
 │       └── etc...
 │
-│   └── kpi_ipc_0201_historico/
+│   └── evolucion_centro/
 │       ├── 2018-2019_to_2024-2025/
-│       │   └── ipc_0201_trend.parquet           
+│       │   └── evolucion.parquet           
 │       └── etc...
 
 ```
