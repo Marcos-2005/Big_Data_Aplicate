@@ -22,5 +22,34 @@ academico-data-lake/
 │        └── evaluation_1/
 │           └── etc...
 │
-
+├── silver/                                      
+│   ├── alumnos/
+│   │   ├── 2024-2025/
+│   │   │   └── alumnos.parquet
+│   │   └── 2023-2024/
+│   │       └── ...
+│   ├── cursos/
+│   │   ├── 2024-2025/
+│   │   │   └── cursos.parquet
+│   │   └── 2023-2024/
+│   │       └── ...
+│   ├── grupos/
+│   │   ├── 2024-2025/
+│   │   │   └── grupos.parquet
+│   │   └── ...
+│   ├── modulos/
+│   │   ├── 2024-2025/
+│   │   │   └── modulos.parquet
+│   │   └── ...
+│   └── calificaciones/
+│       ├── 2024-2025/
+│       │   ├── evaluation_1/
+│       │   │   └── calificaciones_clean.parquet   
+│       │   ├── evaluation_2/
+│       │   └── evaluation_3/
+│       └── 2023-2024/
+│           └── ...
+├── gold/
+│   ├── kpi_ipc_0201_por_grupo/
+ 
 ```
