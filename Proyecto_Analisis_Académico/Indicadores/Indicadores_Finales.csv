@@ -1,0 +1,153 @@
+Curso;Identificador;Indicador;Periodicidad;Escala;Objetivo;Valor-A;Valor-T1;Valor-T2;Valor-T3;Cod_SQ;Cod_PAA
+2021/22;IPC01.01  ;Satisfacció del professorat amb la gestió d’horaris [4]                                                              ;Anual     ;10   ;7,5  ;8,87 ;;;;IPC01.01  ;
+2021/22;PAA-1A1   ;% preinscripció / vacants, per cicle                                                                                 ;Anual     ;100  ;80   ;91   ;;;;;PAA-1A1
+2022/23;IPC01.01  ;Satisfacció del professorat amb la gestió d’horaris [4]                                                              ;Anual     ;10   ;7,5  ;8,91 ;;;;IPC01.01  ;
+2022/23;PAA-1A1   ;% preinscripció / vacants, per cicle                                                                                 ;Anual     ;100  ;80   ;87   ;;;;;PAA-1A1
+2016/17;IPC01.01  ;Satisfacció del professorat amb la gestió d’horaris [4]                                                              ;Anual     ;10   ;7,5  ;8,79 ;;;;IPC01.01  ;
+2017/18;IPC01.01  ;Satisfacció del professorat amb la gestió d’horaris [4]                                                              ;Anual     ;10   ;7,5  ;8,68 ;;;;IPC01.01  ;
+2018/19;IPC01.01  ;Satisfacció del professorat amb la gestió d’horaris [4]                                                              ;Anual     ;10   ;7,5  ;9,48 ;;;;IPC01.01  ;
+2019/20;IPC01.01  ;Satisfacció del professorat amb la gestió d’horaris [4]                                                              ;Anual     ;10   ;7,5  ;9,15 ;;;;IPC01.01  ;
+2020/21;IPC01.01  ;Satisfacció del professorat amb la gestió d’horaris [4]                                                              ;Anual     ;10   ;7,5  ;8,89 ;;;;IPC01.01  ;
+2021/22;IPC01.02  ;Satisfacció del alumnat amb l’acollida[1]                                                                            ;Anual     ;10   ;7,5  ;8,36 ;;;;IPC01.02  ;
+2022/23;IPC01.02  ;Satisfacció del alumnat amb l’acollida[1]                                                                            ;Anual     ;10   ;7,5  ;8,63 ;;;;IPC01.02  ;
+2016/17;IPC01.02  ;Satisfacció del alumnat amb l’acollida[1]                                                                            ;Anual     ;10   ;7,5  ;8,3  ;;;;IPC01.02  ;
+2017/18;IPC01.02  ;Satisfacció del alumnat amb l’acollida[1]                                                                            ;Anual     ;10   ;7,5  ;7,64 ;;;;IPC01.02  ;
+2018/19;IPC01.02  ;Satisfacció del alumnat amb l’acollida[1]                                                                            ;Anual     ;10   ;7,5  ;8,26 ;;;;IPC01.02  ;
+2019/20;IPC01.02  ;Satisfacció del alumnat amb l’acollida[1]                                                                            ;Anual     ;10   ;7,5  ;8,39 ;;;;IPC01.02  ;
+2020/21;IPC01.02  ;Satisfacció del alumnat amb l’acollida[1]                                                                            ;Anual     ;10   ;7,5  ;8,43 ;;;;IPC01.02  ;
+2021/22;IPC01.03  ;Nombre de amonestacions (T)                                                                                          ;Trimestral;;2    ;;8    ;1    ;3    ;IPC01.03  ;
+2022/23;IPC01.03  ;Nombre de amonestacions (T)                                                                                          ;Trimestral;;10   ;;9    ;10   ;2    ;IPC01.03  ;
+2023/24;IPC01.03  ;Nombre de amonestacions (T)                                                                                          ;Trimestral;;10   ;;2    ;;;IPC01.03  ;
+2020/21;IPC01.03  ;Nombre de amonestacions (T)                                                                                          ;Trimestral;;10   ;;0    ;0    ;13   ;IPC01.03  ;
+2021/22;IPC01.04  ;Nombre de expedients incoats (T)                                                                                     ;Trimestral;;1    ;;0    ;1    ;1    ;IPC01.04  ;
+2022/23;IPC01.04  ;Nombre de expedients incoats (T)                                                                                     ;Trimestral;;1    ;;2    ;0    ;0    ;IPC01.04  ;
+2023/24;IPC01.04  ;Nombre de expedients incoats (T)                                                                                     ;Trimestral;;1    ;;0    ;;;IPC01.04  ;
+2020/21;IPC01.04  ;Nombre de expedients incoats (T)                                                                                     ;Trimestral;;1    ;;0    ;0    ;0    ;IPC01.04  ;
+2021/22;IPC02.01  ;Alumnes en tot aprovat/total del grup (T)                                                                            ;Trimestral;100  ;35   ;;52,81;63,85;75,41;IPC02.01  ;
+2022/23;IPC02.01  ;Alumnes en tot aprovat/total del grup (T)                                                                            ;Trimestral;100  ;35   ;;51,03;63,47;71,86;IPC02.01  ;
+2023/24;IPC02.01  ;Alumnes en tot aprovat/total del grup (T)                                                                            ;Trimestral;100  ;35   ;;52.02;;;IPC02.01  ;
+2016/17;IPC02.01  ;Alumnes en tot aprovat/total del grup (T)                                                                            ;Trimestral;100  ;35   ;;38,11;53,80;65,91;IPC02.01  ;
+2017/18;IPC02.01  ;Alumnes en tot aprovat/total del grup (T)                                                                            ;Trimestral;100  ;35   ;;49,16;39,7 ;65,64;IPC02.01  ;
+2018/19;IPC02.01  ;Alumnes en tot aprovat/total del grup (T)                                                                            ;Trimestral;100  ;35   ;;45   ;43   ;68,67;IPC02.01  ;
+2019/20;IPC02.01  ;Alumnes en tot aprovat/total del grup (T)                                                                            ;Trimestral;100  ;35   ;;47,33;54,55;79,23;IPC02.01  ;
+2020/21;IPC02.01  ;Alumnes en tot aprovat/total del grup (T)                                                                            ;Trimestral;100  ;35   ;;48,43;63,35;72,45;IPC02.01  ;
+2021/22;IPC02.08  ;Satisfacció de l`alumnat respecte a l`acció tutorial (16,18)                                                         ;Anual     ;10   ;6    ;7,42 ;;;;IPC02.08  ;
+2022/23;IPC02.08  ;Satisfacció de l`alumnat respecte a l`acció tutorial (16,18)                                                         ;Anual     ;10   ;6    ;7,99 ;;;;IPC02.08  ;
+2016/17;IPC02.08  ;Satisfacció de l`alumnat respecte a l`acció tutorial (16,18)                                                         ;Anual     ;10   ;6    ;8,19 ;;;;IPC02.08  ;
+2017/18;IPC02.08  ;Satisfacció de l`alumnat respecte a l`acció tutorial (16,18)                                                         ;Anual     ;10   ;6    ;6,74 ;;;;IPC02.08  ;
+2018/19;IPC02.08  ;Satisfacció de l`alumnat respecte a l`acció tutorial (16,18)                                                         ;Anual     ;10   ;6    ;7,58 ;;;;IPC02.08  ;
+2019/20;IPC02.08  ;Satisfacció de l`alumnat respecte a l`acció tutorial (16,18)                                                         ;Anual     ;10   ;6    ;7,46 ;;;;IPC02.08  ;
+2020/21;IPC02.08  ;Satisfacció de l`alumnat respecte a l`acció tutorial (16,18)                                                         ;Anual     ;10   ;6    ;7,64 ;;;;IPC02.08  ;
+2021/22;IPC02.09  ;Satisfacció del professor respecte  a l`acció tutorial [global]                                                      ;Anual     ;10   ;7    ;8,38 ;;;;IPC02.09  ;
+2021/22;IPC03.01  ;Satisfacció dels alumnes amb el departament d'orientació[ ver preg orientacion]                                      ;Anual     ;10   ;8    ;7,72 ;;;;IPC03.01  ;
+2022/23;IPC03.01  ;Satisfacció dels alumnes amb el departament d'orientació[ ver preg orientacion]                                      ;Anual     ;10   ;8    ;8,16 ;;;;IPC03.01  ;
+2016/17;IPC03.01  ;Satisfacció dels alumnes amb el departament d'orientació[ ver preg orientacion]                                      ;Anual     ;10   ;8    ;8,76 ;;;;IPC03.01  ;
+2020/21;IPC03.01  ;Satisfacció dels alumnes amb el departament d'orientació[ ver preg orientacion]                                      ;Anual     ;10   ;8    ;8,94 ;;;;IPC03.01  ;
+2021/22;IPC03.02-a;Grau de satisfacció dels professors amb el departament d'orientació [ 28-29]                                         ;Anual     ;10   ;8    ;8,26 ;;;;;
+2021/22;IPC03.02-b;Valoración PAT                                                                                                       ;Anual     ;10   ;;8,84 ;;;;;
+2022/23;IPC03.02-b;Valoración PAT                                                                                                       ;Trimestral;100  ;;;74   ;58   ;63   ;;
+2023/24;IPC03.02-b;Valoración PAT                                                                                                       ;Trimestral;100  ;50   ;;75.6 ;;;;
+2021/22;IPC04.01  ;Aprovats en les Practiques Formatives                                                                                ;Anual     ;100  ;95   ;98   ;;;;IPC04.01  ;
+2022/23;IPC04.01  ;Aprovats en les Practiques Formatives                                                                                ;Anual     ;100  ;95   ;100  ;;;;IPC04.01  ;
+2016/17;IPC04.01  ;Aprovats en les Practiques Formatives                                                                                ;Anual     ;100  ;95   ;98,31;;;;IPC04.01  ;
+2017/18;IPC04.01  ;Aprovats en les Practiques Formatives                                                                                ;Anual     ;100  ;95   ;100  ;;;;IPC04.01  ;
+2018/19;IPC04.01  ;Aprovats en les Practiques Formatives                                                                                ;Anual     ;100  ;95   ;99   ;;;;IPC04.01  ;
+2019/20;IPC04.01  ;Aprovats en les Practiques Formatives                                                                                ;Anual     ;100  ;95   ;85   ;;;;IPC04.01  ;
+2020/21;IPC04.01  ;Aprovats en les Practiques Formatives                                                                                ;Anual     ;100  ;95   ;99   ;;;;IPC04.01  ;
+2020/21;PAA-1A1   ;% preinscripció / vacants, per cicle                                                                                 ;Anual     ;100  ;80   ;75   ;;;;;PAA-1A1
+2021/22;PAA-1A2   ;% abandonament                                                                                                       ;Anual     ;100  ;11   ;9,41 ;;;;IPC02.10  ;PAA-1A2
+2022/23;PAA-1A2   ;% abandonament                                                                                                       ;Anual     ;100  ;10,5 ;5,1  ;;;;IPC02.10  ;PAA-1A2
+2020/21;PAA-1A2   ;% abandonament                                                                                                       ;Anual     ;100  ;10,5 ;11,85;;;;IPC02.10  ;PAA-1A2
+2021/22;PAA-1A3   ;% alumnes promocionats de 1r a 2n GM                                                                                 ;Anual     ;100  ;75   ;92,8 ;;;;IPC02.07-a;PAA-1A3
+2022/23;PAA-1A3   ;% alumnes promocionats de 1r a 2n GM                                                                                 ;Anual     ;100  ;80   ;91,07;;;;IPC02.07-a;PAA-1A3
+2020/21;PAA-1A3   ;% alumnes promocionats de 1r a 2n GM                                                                                 ;Anual     ;100  ;80   ;85,97;;;;IPC02.07-a;PAA-1A3
+2021/22;PAA-1A4   ;% alumnes promocionats de 1r a 2n GS                                                                                 ;Anual     ;100  ;80   ;84,2 ;;;;IPC02.07-b;PAA-1A4
+2022/23;PAA-1A4   ;% alumnes promocionats de 1r a 2n GS                                                                                 ;Anual     ;100  ;82   ;84,56;;;;IPC02.07-b;PAA-1A4
+2020/21;PAA-1A4   ;% alumnes promocionats de 1r a 2n GS                                                                                 ;Anual     ;100  ;82   ;85,7 ;;;;IPC02.07-b;PAA-1A4
+2021/22;PAA-1A5   ;% alumnes titulats GM                                                                                                ;Anual     ;100  ;70   ;80   ;;;;IPC02.06  ;PAA-1A5
+2022/23;PAA-1A5   ;% alumnes titulats GM                                                                                                ;Anual     ;100  ;75   ;93,2 ;;;;IPC02.06  ;PAA-1A5
+2020/21;PAA-1A5   ;% alumnes titulats GM                                                                                                ;Anual     ;100  ;75   ;84,56;;;;IPC02.06  ;PAA-1A5
+2021/22;PAA-1A6   ;% alumnes titulats GS                                                                                                ;Anual     ;100  ;75   ;77,3 ;;;;IPC02.05  ;PAA-1A6
+2022/23;PAA-1A6   ;% alumnes titulats GS                                                                                                ;Anual     ;100  ;77   ;91,5 ;;;;IPC02.05  ;PAA-1A6
+2020/21;PAA-1A6   ;% alumnes titulats GS                                                                                                ;Anual     ;100  ;77   ;84,58;;;;IPC02.05  ;PAA-1A6
+2021/22;PAA-1A7   ;% alumnes semipresencial amb tots els mòduls superats (NE no computen)                                               ;Anual     ;100  ;50   ;70,2 ;;;;IPC02.11  ;PAA-1A7
+2022/23;PAA-1A7   ;% alumnes semipresencial amb tots els mòduls superats (NE no computen)                                               ;Anual     ;100  ;55   ;81,2 ;;;;IPC02.11  ;PAA-1A7
+2020/21;PAA-1A7   ;% alumnes semipresencial amb tots els mòduls superats (NE no computen)                                               ;Anual     ;100  ;55   ;77,94;;;;IPC02.11  ;PAA-1A7
+2021/22;PAA-1B1   ;Satisfacció de l'alumnat respecte a l`activitat docent                                                               ;Anual     ;10   ;8    ;8,5  ;;;;IPC02.02  ;PAA-1B1
+2022/23;PAA-1B1   ;Satisfacció de l'alumnat respecte a l`activitat docent                                                               ;Anual     ;10   ;8    ;8,34 ;;;;IPC02.02  ;PAA-1B1
+2016/17;PAA-1B1   ;Satisfacció de l'alumnat respecte a l`activitat docent                                                               ;Anual     ;10   ;8    ;8    ;;;;IPC02.02  ;PAA-1B1
+2017/18;PAA-1B1   ;Satisfacció de l'alumnat respecte a l`activitat docent                                                               ;Anual     ;10   ;8    ;8    ;;;;IPC02.02  ;PAA-1B1
+2018/19;PAA-1B1   ;Satisfacció de l'alumnat respecte a l`activitat docent                                                               ;Anual     ;10   ;8    ;8,33 ;;;;IPC02.02  ;PAA-1B1
+2019/20;PAA-1B1   ;Satisfacció de l'alumnat respecte a l`activitat docent                                                               ;Anual     ;10   ;8    ;8,18 ;;;;IPC02.02  ;PAA-1B1
+2020/21;PAA-1B1   ;Satisfacció de l'alumnat respecte a l`activitat docent                                                               ;Anual     ;10   ;8    ;8,66 ;;;;IPC02.02  ;PAA-1B1
+2021/22;PAA-1B2   ;Satisfacció del professor respecte a l'activitat docent [global]                                                     ;Anual     ;10   ;8    ;8,77 ;;;;IPC02.03  ;PAA-1B2
+2022/23;PAA-1B2   ;Satisfacció del professor respecte a l'activitat docent [global]                                                     ;Anual     ;10   ;8    ;8,84 ;;;;IPC02.03  ;PAA-1B2
+2016/17;PAA-1B2   ;Satisfacció del professor respecte a l'activitat docent [global]                                                     ;Anual     ;10   ;8    ;8,58 ;;;;IPC02.03  ;PAA-1B2
+2017/18;PAA-1B2   ;Satisfacció del professor respecte a l'activitat docent [global]                                                     ;Anual     ;10   ;8    ;8,53 ;;;;IPC02.03  ;PAA-1B2
+2018/19;PAA-1B2   ;Satisfacció del professor respecte a l'activitat docent [global]                                                     ;Anual     ;10   ;8    ;8,49 ;;;;IPC02.03  ;PAA-1B2
+2019/20;PAA-1B2   ;Satisfacció del professor respecte a l'activitat docent [global]                                                     ;Anual     ;10   ;8    ;8,83 ;;;;IPC02.03  ;PAA-1B2
+2020/21;PAA-1B2   ;Satisfacció del professor respecte a l'activitat docent [global]                                                     ;Anual     ;10   ;8    ;8,66 ;;;;IPC02.03  ;PAA-1B2
+2021/22;PAA-1C1   ;Satisfacció de l'alumnat amb la FCT                                                                                  ;Anual     ;10   ;8    ;8,82 ;;;;IPC04.02  ;PAA-1C1
+2022/23;PAA-1C1   ;Satisfacció de l'alumnat amb la FCT                                                                                  ;Anual     ;10   ;8    ;8,79 ;;;;IPC04.02  ;PAA-1C1
+2016/17;PAA-1C1   ;Satisfacció de l'alumnat amb la FCT                                                                                  ;Anual     ;10   ;8    ;8,6  ;;;;IPC04.02  ;PAA-1C1
+2017/18;PAA-1C1   ;Satisfacció de l'alumnat amb la FCT                                                                                  ;Anual     ;10   ;8    ;8,45 ;;;;IPC04.02  ;PAA-1C1
+2018/19;PAA-1C1   ;Satisfacció de l'alumnat amb la FCT                                                                                  ;Anual     ;10   ;8    ;8,6  ;;;;IPC04.02  ;PAA-1C1
+2020/21;PAA-1C1   ;Satisfacció de l'alumnat amb la FCT                                                                                  ;Anual     ;10   ;8    ;8,84 ;;;;IPC04.02  ;PAA-1C1
+2021/22;PAA-1C2   ;Satisfacció d’empreses amb la FCT                                                                                    ;Anual     ;10   ;8    ;9,11 ;;;;IPC04.03  ;PAA-1C2
+2022/23;PAA-1C2   ;Satisfacció d’empreses amb la FCT                                                                                    ;Anual     ;10   ;8    ;9,15 ;;;;IPC04.03  ;PAA-1C2
+2016/17;PAA-1C2   ;Satisfacció d’empreses amb la FCT                                                                                    ;Anual     ;10   ;8    ;8,96 ;;;;IPC04.03  ;PAA-1C2
+2017/18;PAA-1C2   ;Satisfacció d’empreses amb la FCT                                                                                    ;Anual     ;10   ;8    ;9,04 ;;;;IPC04.03  ;PAA-1C2
+2018/19;PAA-1C2   ;Satisfacció d’empreses amb la FCT                                                                                    ;Anual     ;10   ;8    ;9,38 ;;;;IPC04.03  ;PAA-1C2
+2020/21;PAA-1C2   ;Satisfacció d’empreses amb la FCT                                                                                    ;Anual     ;10   ;8    ;9,24 ;;;;IPC04.03  ;PAA-1C2
+2021/22;PAA-1D1   ;% alumnes contractats després de FCT                                                                                 ;Anual     ;100  ;40   ;47,59;;;;IPC05.03  ;PAA-1D1
+2022/23;PAA-1D1   ;% alumnes contractats després de FCT                                                                                 ;Anual     ;100  ;45   ;50   ;;;;IPC05.03  ;PAA-1D1
+2016/17;PAA-1D1   ;% alumnes contractats després de FCT                                                                                 ;Anual     ;100  ;45   ;43   ;;;;IPC05.03  ;PAA-1D1
+2017/18;PAA-1D1   ;% alumnes contractats després de FCT                                                                                 ;Anual     ;100  ;45   ;44   ;;;;IPC05.03  ;PAA-1D1
+2018/19;PAA-1D1   ;% alumnes contractats després de FCT                                                                                 ;Anual     ;100  ;45   ;56   ;;;;IPC05.03  ;PAA-1D1
+2019/20;PAA-1D1   ;% alumnes contractats després de FCT                                                                                 ;Anual     ;100  ;45   ;26   ;;;;IPC05.03  ;PAA-1D1
+2020/21;PAA-1D1   ;% alumnes contractats després de FCT                                                                                 ;Anual     ;100  ;45   ;39   ;;;;IPC05.03  ;PAA-1D1
+2021/22;PAA-1D2   ;% alumnes contratacts després de 6 mesos de titular                                                                  ;Anual     ;100  ;70   ;84,1 ;;;;IPC05.04  ;PAA-1D2
+2022/23;PAA-1D2   ;% alumnes contratacts després de 6 mesos de titular                                                                  ;Anual     ;100  ;65   ;91   ;;;;IPC05.04  ;PAA-1D2
+2019/20;PAA-1D2   ;% alumnes contratacts després de 6 mesos de titular                                                                  ;Anual     ;100  ;65   ;77   ;;;;IPC05.04  ;PAA-1D2
+2020/21;PAA-1D2   ;% alumnes contratacts després de 6 mesos de titular                                                                  ;Anual     ;100  ;65   ;79,8 ;;;;IPC05.04  ;PAA-1D2
+2021/22;PAA-2A1   ;LABORA: % abandonament per motius no laborals                                                                        ;Anual     ;100  ;30   ;10   ;;;;IPC05.01  ;PAA-2A1
+2022/23;PAA-2A1   ;LABORA: % abandonament per motius no laborals                                                                        ;Anual     ;100  ;25   ;20,68;;;;IPC05.01  ;PAA-2A1
+2020/21;PAA-2A1   ;LABORA: % abandonament per motius no laborals                                                                        ;Anual     ;100  ;25   ;30   ;;;;IPC05.01  ;PAA-2A1
+2021/22;PAA-2A2   ;LABORA: % alumnes titulats                                                                                           ;Anual     ;100  ;85   ;94   ;;;;IPC05.02  ;PAA-2A2
+2022/23;PAA-2A2   ;LABORA: % alumnes titulats                                                                                           ;Anual     ;100  ;87   ;100  ;;;;IPC05.02  ;PAA-2A2
+2020/21;PAA-2A2   ;LABORA: % alumnes titulats                                                                                           ;Anual     ;100  ;87   ;60   ;;;;IPC05.02  ;PAA-2A2
+2021/22;PAA-2B1   ;LABORA: % alumnes contractats desprès de PNL                                                                         ;Anual     ;100  ;20   ;43,75;;;;IPC04.04  ;PAA-2B1
+2022/23;PAA-2B1   ;LABORA: % alumnes contractats desprès de PNL                                                                         ;Anual     ;100  ;25   ;59,09;;;;IPC04.04  ;PAA-2B1
+2020/21;PAA-2B1   ;LABORA: % alumnes contractats desprès de PNL                                                                         ;Anual     ;100  ;25   ;50   ;;;;IPC04.04  ;PAA-2B1
+2021/22;PAA-2B2   ;LABORA: % alumnes contractats després de 6 mesos de titular                                                          ;Anual     ;100  ;30   ;80   ;;;;IPC04.05  ;PAA-2B2
+2022/23;PAA-2B2   ;LABORA: % alumnes contractats després de 6 mesos de titular                                                          ;Anual     ;100  ;40   ;67   ;;;;IPC04.05  ;PAA-2B2
+2021/22;PAA-2C1   ;LABORA: Satisfacció de l`alumnat respecte a l`activitat docent                                                       ;Anual     ;10   ;8    ;9,58 ;;;;IPC05.05  ;PAA-2C1
+2022/23;PAA-2C1   ;LABORA: Satisfacció de l`alumnat respecte a l`activitat docent                                                       ;Anual     ;10   ;8    ;9,16 ;;;;IPC05.05  ;PAA-2C1
+2020/21;PAA-2C1   ;LABORA: Satisfacció de l`alumnat respecte a l`activitat docent                                                       ;Anual     ;10   ;8    ;9,08 ;;;;IPC05.05  ;PAA-2C1
+2021/22;PAA-2C2   ;LABORA: Satisfacció del professor respecte a l`activitat docent [global]                                             ;Anual     ;10   ;8    ;8,77 ;;;;IPC05.06  ;PAA-2C2
+2022/23;PAA-2C2   ;LABORA: Satisfacció del professor respecte a l`activitat docent [global]                                             ;Anual     ;10   ;8    ;8,99 ;;;;IPC05.06  ;PAA-2C2
+2021/22;PAA-3A1   ;nº famílies professionals que participen en el PEAC                                                                  ;Anual     ;5    ;1    ;4    ;;;;;PAA-3A1
+2022/23;PAA-3A1   ;nº famílies professionals que participen en el PEAC                                                                  ;Anual     ;5    ;3    ;3    ;;;;;PAA-3A1
+2019/20;PAA-3A1   ;nº famílies professionals que participen en el PEAC                                                                  ;Anual     ;5    ;3    ;3    ;;;;;PAA-3A1
+2020/21;PAA-3A1   ;nº famílies professionals que participen en el PEAC                                                                  ;Anual     ;5    ;3    ;4    ;;;;;PAA-3A1
+2022/23;PAA-3B1   ;nivell d'aprofitament de l'orientació dels participants en les accions formatives (enquestes)                        ;Anual     ;10   ;7    ;7,92 ;;;;;PAA-3B1
+2021/22;PAA-4A1   ;% professors que participen en projectes i accions d'innovació                                                       ;Anual     ;100  ;8    ;33,6 ;;;;;PAA-4A1
+2022/23;PAA-4A1   ;% professors que participen en projectes i accions d'innovació                                                       ;Anual     ;100  ;7    ;61   ;;;;;PAA-4A1
+2021/22;PAA-4B1   ;nº equips d'estudiants que participen a convocatòries d’emprenedories (SECOT i altres)                               ;Anual     ;;2    ;9    ;;;;;PAA-4B1
+2022/23;PAA-4B1   ;nº equips d'estudiants que participen a convocatòries d’emprenedories (SECOT i altres)                               ;Anual     ;;4    ;15   ;;;;;PAA-4B1
+2021/22;PAA-5A1   ;% alumnes de 2n presencials que participen en mobilitat                                                              ;Anual     ;100  ;3    ;1,08 ;;;;;PAA-5A1
+2022/23;PAA-5A1   ;% alumnes de 2n presencials que participen en mobilitat                                                              ;Anual     ;100  ;3    ;4    ;;;;;PAA-5A1
+2021/22;PAA-5A2   ;% professorat que participen en mobilitat                                                                            ;Anual     ;100  ;3    ;3,36 ;;;;;PAA-5A2
+2022/23;PAA-5A2   ;% professorat que participen en mobilitat                                                                            ;Anual     ;100  ;3    ;4    ;;;;;PAA-5A2
+2021/22;PAA-5A3   ;nº projectes Erasmus+/internacionals realitzats anualment                                                            ;Anual     ;;2    ;4    ;;;;;PAA-5A3
+2022/23;PAA-5A3   ;nº projectes Erasmus+/internacionals realitzats anualment                                                            ;Anual     ;;3    ;3    ;;;;;PAA-5A3
+2021/22;PAA-6A1   ;Projecte redactat                                                                                                    ;Anual     ;1    ;1    ;0    ;;;;;PAA-6A1
+2022/23;PAA-6A1   ;Projecte redactat                                                                                                    ;Anual     ;1    ;0    ;0    ;;;;;PAA-6A1
+2019/20;PAA-6A1   ;Projecte redactat                                                                                                    ;Anual     ;1    ;0    ;0    ;;;;;PAA-6A1
+2020/21;PAA-6A1   ;Projecte redactat                                                                                                    ;Anual     ;1    ;0    ;0    ;;;;;PAA-6A1
+2021/22;PAA-6B1   ;Definició de la plantilla orgànica de centre                                                                         ;Anual     ;8    ;6    ;6    ;;;;;PAA-6B1
+2022/23;PAA-6B1   ;Definició de la plantilla orgànica de centre                                                                         ;Anual     ;8    ;6    ;8    ;;;;;PAA-6B1
+2021/22;PAA-6B2   ;Provisió de la plantilla orgànica de centre                                                                          ;Anual     ;8    ;6    ;4    ;;;;;PAA-6B2
+2022/23;PAA-6B2   ;Provisió de la plantilla orgànica de centre                                                                          ;Anual     ;8    ;6    ;6    ;;;;;PAA-6B2
+2021/22;PAA-6C1   ;Quadre de comandament integral                                                                                       ;Anual     ;1    ;1    ;0    ;;;;;PAA-6C1
+2022/23;PAA-6C1   ;Quadre de comandament integral                                                                                       ;Anual     ;1    ;0    ;0    ;;;;;PAA-6C1
