@@ -1,0 +1,16 @@
+LayerTable NameDescriptionSourceDestinationUpdate FrequencyOwner
+BronzeAlumnos_rawDatos crudos de los alumnos exportados del sistema académicoSistema académicoData Lake (Bronze/Alumnos)Por evaluaciónMarcos
+BronzeCalificaciones_rawNotas originales sin transformarExportación académicaData Lake (Bronze/Calificaciones)Por evaluaciónMarcos
+BronzeCursos_rawDatos brutos de cursos y especialidadesSistema académicoData Lake (Bronze/Cursos)Por evaluaciónMarcos
+BronzeGrupos_rawDatos crudos de gruposSistema académicoData Lake (Bronze/Grupos)Por evaluaciónMarcos
+BronzeModulos_rawMódulos brutos previa limpiezaSistema académicoData Lake (Bronze/Modulos)Por evaluaciónMarcos
+
+SilveralumnosAlumnos limpios y normalizadosBronze.Alumnos_rawSilver/alumnos/*.parquetTras cada cargaMarcos
+SilvercursosCursos limpios y normalizadosBronze.Cursos_rawSilver/cursos/*.parquetTras cada cargaMarcos
+SilvergruposGrupos limpios y normalizadosBronze.Grupos_rawSilver/grupos/*.parquetTras cada cargaMarcos
+SilvermodulosMódulos limpios y con nombres estandarizadosBronze.Modulos_rawSilver/modulos/*.parquetTras cada cargaMarcos
+Silvercalificaciones_cleanCalificaciones limpias con tipos corregidosBronze.Calificaciones_rawSilver/calificaciones/*/*.parquetPor evaluaciónMarcos
+
+Goldresumen_gruposAgregación estadística por grupo (media aprobados…)Silver.calificaciones_cleanGold/resultados_por_grupo/*/*.parquetPor evaluaciónMarcos
+Goldresumen_cursoAgregación estadística por cursoSilver.calificaciones_cleanGold/resultados_por_curso/*.parquetPor cursoMarcos
+GoldevolucionSerie histórica de resultados del centroSilver.calificaciones_cleanGold/evolucion_centro/*.parquetAnualMarcos
