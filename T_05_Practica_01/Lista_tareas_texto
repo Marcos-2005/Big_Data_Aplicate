@@ -1,0 +1,9 @@
+1. recibir los datos en xml
+2. convertirlos a csv
+3. limpieza de datos
+3.1 enviar los datos a cada tabla
+3.2 limpieza de campos (columnas)
+3.3 eliminar dulplicados
+3.4 renombrar campos
+3.5 revisar uniformidades
+4. guardarme los datos en una base de datos
