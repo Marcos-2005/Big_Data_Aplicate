@@ -1,0 +1,77 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.9">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1975" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="Bwts-Lh5I2DC0ta4GVLh-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Bwts-Lh5I2DC0ta4GVLh-0" target="Bwts-Lh5I2DC0ta4GVLh-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bwts-Lh5I2DC0ta4GVLh-0" value="Recibir los datos en xml" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bwts-Lh5I2DC0ta4GVLh-24" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Bwts-Lh5I2DC0ta4GVLh-26" target="Bwts-Lh5I2DC0ta4GVLh-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bwts-Lh5I2DC0ta4GVLh-25" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Bwts-Lh5I2DC0ta4GVLh-2" target="Bwts-Lh5I2DC0ta4GVLh-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bwts-Lh5I2DC0ta4GVLh-2" value="Convertirlos a csv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bwts-Lh5I2DC0ta4GVLh-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Bwts-Lh5I2DC0ta4GVLh-10" target="Bwts-Lh5I2DC0ta4GVLh-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="530" as="targetPoint" />
+            <mxPoint x="120" y="530" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bwts-Lh5I2DC0ta4GVLh-10" value="Limpieza de campos (columnas)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-10" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bwts-Lh5I2DC0ta4GVLh-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Bwts-Lh5I2DC0ta4GVLh-12" target="Bwts-Lh5I2DC0ta4GVLh-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bwts-Lh5I2DC0ta4GVLh-12" value="Eliminar Duplicados" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bwts-Lh5I2DC0ta4GVLh-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Bwts-Lh5I2DC0ta4GVLh-14" target="Bwts-Lh5I2DC0ta4GVLh-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bwts-Lh5I2DC0ta4GVLh-14" value="Renombrar Campos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bwts-Lh5I2DC0ta4GVLh-23" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Bwts-Lh5I2DC0ta4GVLh-16" target="Bwts-Lh5I2DC0ta4GVLh-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bwts-Lh5I2DC0ta4GVLh-16" value="Revisar Uniformidades" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bwts-Lh5I2DC0ta4GVLh-18" value="Pasar los datos a una Base de datos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="640" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Bwts-Lh5I2DC0ta4GVLh-19" value="DAG_Datos" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="310" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Bwts-Lh5I2DC0ta4GVLh-20" value="DAG_BD" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650" y="240" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Bwts-Lh5I2DC0ta4GVLh-21" value="DAG_Limpieza" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="585" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Bwts-Lh5I2DC0ta4GVLh-26" value="Crear tablas si no están creadas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
