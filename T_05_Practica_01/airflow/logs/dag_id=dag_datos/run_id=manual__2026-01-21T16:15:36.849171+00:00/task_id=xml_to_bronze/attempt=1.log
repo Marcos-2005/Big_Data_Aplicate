@@ -1,0 +1,4 @@
+{"timestamp":"2026-01-21T16:15:38.492502","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-01-21T16:15:38.492799","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_datos.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-01-21T16:15:38.870366Z","level":"info","event":"XML convertido a Bronze CSV","chan":"stdout","logger":"task"}
+{"timestamp":"2026-01-21T16:15:38.728970","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
