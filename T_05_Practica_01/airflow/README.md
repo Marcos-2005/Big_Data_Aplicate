@@ -1,20 +1,54 @@
 # Práctica 5.1 – Orquestación de un Pipeline de Análisis Académico con Apache Airflow
 
-## Contexto y evolución del proyecto (Storyboard técnico)
+## Estructura de carpetas del proyecto
 
-Este proyecto nace como una evolución natural del flujo de **Análisis Académico** desarrollado previamente con **Apache NiFi**. En aquella primera aproximación, el objetivo principal era comprender el flujo de datos y validar la viabilidad del procesamiento de información académica (alumnos, cursos, módulos y calificaciones) a partir de ficheros XML.
+La organización del proyecto sigue una separación clara entre orquestación, código de transformación y capas de datos, alineada con la arquitectura Medallón:
 
-Con la introducción de **Apache Airflow**, el planteamiento cambia: pasamos de un flujo principalmente visual y manual a un **pipeline completamente orquestado, reproducible y automatizado**, siguiendo buenas prácticas de ingeniería de datos.
+```text
+airflow/
+├── dags/
+│   ├── dag_datos.py              # DAG de ingesta (XML → Bronze)
+│   ├── dag_limpiar.py            # DAG de limpieza y normalización (Bronze → Silver)
+│   ├── dag_db.py                 # DAG de generación Gold y carga en MySQL
+│   │
+│   ├── include/                
+│   │   ├── datos.py             
+│   │   ├── limpiar.py           
+│   │   ├── bd.py                 # Generación Gold y carga al Data Warehouse
+│   │   └── logging_utils.py      # Registro de eventos en la tabla etl_log
+│   │
+│   ├── data/
+│   │   └── ITACA/                # Datos de entrada (XML académicos)
+│   │       ├── varios_23-24_anon.xml
+│   │       ├── varios_23-24_anon_01.xml
+│   │       ├── varios_23-24_anon_02.xml
+│   │       ├── varios_24-25_anon.xml
+│   │       ├── varios_24-25_anon_01.xml
+│   │       ├── varios_24-25_anon_02.xml
+│   │       └── varios_25-26_anon_01.xml
+│   │
+│   └── output/
+│       ├── bronze/               # Capa Bronze (CSV crudos por año)
+│       │   ├── alumnos_bronze_YYYY.csv
+│       │   ├── cursos_bronze_YYYY.csv
+│       │   ├── modulos_bronze_YYYY.csv
+│       │   └── calificaciones_bronze_YYYY.csv
+│       │
+│       ├── silver/               # Capa Silver (CSV limpios)
+│       │   ├── alumnos_silver_YYYY.csv
+│       │   ├── cursos_silver_YYYY.csv
+│       │   ├── modulos_silver_YYYY.csv
+│       │   └── calificaciones_silver_YYYY.csv
+│       │
+│       └── gold/                 # Capa Gold (datos listos para explotación)
+│           ├── alumnos_gold_YYYY.csv
+│           ├── cursos_gold_YYYY.csv
+│           ├── modulos_gold_YYYY.csv
+│           └── calificaciones_gold_YYYY.csv
+│
+├── docker-compose.yaml           # Despliegue de Apache Airflow con Docker
+└── README.md                     # Documentación del proyecto
 
-Las decisiones clave de diseño han sido:
-- Separar claramente cada etapa del procesamiento.
-- Adoptar una **arquitectura Medallón (Bronze / Silver / Gold)** para mejorar trazabilidad y calidad del dato.
-- Centralizar la orquestación en Airflow, usando código Python en lugar de herramientas visuales.
-- Preparar el sistema para **ejecución diaria**, permitiendo la incorporación de nuevos ficheros XML sin modificar el código.
-
-El resultado es un pipeline robusto, escalable y alineado con escenarios reales de Data Engineering.
-
----
 
 ## Arquitectura Medallón
 
@@ -32,19 +66,19 @@ output/gold
 MySQL (Data Warehouse)
 ```
 
-📌 **[TU_ARQUITECTURA_AQUÍ]**
+ **[TU_ARQUITECTURA_AQUÍ]**
 
-### 🥉 Bronze – Datos crudos
+###  Bronze – Datos crudos
 - Conversión de XML a CSV.
 - Separación por entidades y por año académico.
 - Conservación fiel del dato de origen.
 
-### 🥈 Silver – Datos limpios
+###  Silver – Datos limpios
 - Eliminación de duplicados.
 - Normalización de columnas.
 - Eliminación de calificaciones asociadas a alumnos de baja.
 
-### 🥇 Gold – Datos listos para explotación
+###  Gold – Datos listos para explotación
 - Datos alineados con el modelo del Data Warehouse.
 - Tipos normalizados.
 - Persistencia tanto en CSV como en MySQL.
