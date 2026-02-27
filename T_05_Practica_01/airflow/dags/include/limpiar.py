@@ -1,106 +1,104 @@
 from pathlib import Path
 import pandas as pd
+
 from include.logging_utils import log_event
 
 
-def _is_baja(estado: str) -> bool:
-    """
-    Decide si un alumno está de baja.
-    Ajusta aquí si en tu dataset usas otro código.
-    """
-    if estado is None:
-        return False
-    s = str(estado).strip().upper()
-    if s == "":
-        return False
-    # Casos típicos
-    if s == "B":
-        return True
-    if "BAJA" in s:
-        return True
-    if "ANUL" in s:  # anulada/anulado
-        return True
-    return False
+def _read_csv(path: Path) -> pd.DataFrame:
+    if not path.exists():
+        raise FileNotFoundError(f"Falta el fichero: {path}")
+    return pd.read_csv(path, dtype=str).fillna("")
 
 
-def limpiar_datos_por_anyo(bronze_dir: str, silver_dir: str, **context):
+def _strip_df(df: pd.DataFrame) -> pd.DataFrame:
+    for c in df.columns:
+        df[c] = df[c].astype(str).str.strip()
+    return df
+
+
+def _norm_eval(x: str) -> str:
+    """
+    Normaliza códigos de evaluación de ITACA a:
+      - "1"  (1ª evaluación)
+      - "2"  (2ª evaluación)
+      - "FI" (final)
+      - ""   (descartar: extraordinarias u otros)
+    """
+    s = (x or "").strip().upper()
+    if not s:
+        return ""
+
+    # Extraordinaria / cosas que NO contamos
+    if s == "EX":
+        return ""  # fuera
+
+    # Variantes de 1ª
+    if s in ("1", "01", "P1"):
+        return "1"
+
+    # Variantes de 2ª
+    if s in ("2", "02"):
+        return "2"
+
+    # Cualquier "F*" o finales -> FI
+    if s == "FI" or s in ("FINAL", "FIN", "F", "FE", "FO", "FC", "FJ"):
+        return "FI"
+    if s.startswith("F"):  # F1,F2,F3,F4,F5...
+        return "FI"
+
+    # Otros códigos (PO, PE, P3, etc.) -> descartar
+    return ""
+
+
+def bronze_to_silver(year_label: str, bronze_dir: str, silver_dir: str, **context):
     bronze = Path(bronze_dir)
     silver = Path(silver_dir)
     silver.mkdir(parents=True, exist_ok=True)
 
-    dag_id = context.get("dag").dag_id if context.get("dag") else "dag_limpiar"
-    task_id = context.get("task").task_id if context.get("task") else "limpieza_silver"
-    run_id = context.get("run_id")
-    logical_date = str(context.get("logical_date")) if context.get("logical_date") else None
+    alumnos = _read_csv(bronze / f"alumnos_bronze_{year_label}.csv")
+    modulos = _read_csv(bronze / f"modulos_bronze_{year_label}.csv")
+    cursos = _read_csv(bronze / f"cursos_bronze_{year_label}.csv")
+    califs = _read_csv(bronze / f"calificaciones_bronze_{year_label}.csv")
 
-    # Detectamos años disponibles por alumnos_bronze_YYYY.csv
-    years = []
-    for p in bronze.glob("alumnos_bronze_*.csv"):
-        try:
-            year = int(p.stem.split("_")[-1])
-            years.append(year)
-        except Exception:
-            pass
-    years = sorted(set(years))
+    # normalización suave (strip)
+    alumnos = _strip_df(alumnos).drop_duplicates()
+    modulos = _strip_df(modulos).drop_duplicates()
+    cursos = _strip_df(cursos).drop_duplicates()
+    califs = _strip_df(califs).drop_duplicates()
 
-    if not years:
-        raise FileNotFoundError(f"No encuentro alumnos_bronze_YYYY.csv en {bronze}")
-
-    for anyo in years:
-        alumnos_in = bronze / f"alumnos_bronze_{anyo}.csv"
-        modulos_in = bronze / f"modulos_bronze_{anyo}.csv"
-        cursos_in = bronze / f"cursos_bronze_{anyo}.csv"
-        califs_in = bronze / f"calificaciones_bronze_{anyo}.csv"
-
-        for f in [alumnos_in, modulos_in, cursos_in, califs_in]:
-            if not f.exists():
-                raise FileNotFoundError(f"No existe {f}")
-
-        alumnos = pd.read_csv(alumnos_in, dtype=str).fillna("").drop_duplicates()
-        modulos = pd.read_csv(modulos_in, dtype=str).fillna("").drop_duplicates()
-        cursos = pd.read_csv(cursos_in, dtype=str).fillna("").drop_duplicates()
-        califs = pd.read_csv(califs_in, dtype=str).fillna("").drop_duplicates()
-
-        # =====================================================
-        # REGLA: ELIMINAR SOLO LAS CALIFICACIONES DE ALUMNOS DE BAJA
-        # (el alumno se mantiene en alumnos_silver)
-        # =====================================================
-
-        # Si no hay columna estado_matricula, no podemos identificar bajas
-        if "estado_matricula" in alumnos.columns and "id_alumno" in alumnos.columns:
-            alumnos["__baja__"] = alumnos["estado_matricula"].apply(_is_baja)
-            ids_baja = set(alumnos.loc[alumnos["__baja__"] == True, "id_alumno"].astype(str))
+    # ✅ Filtro seguro: solo filtra calificaciones si id_alumno tiene valores reales
+    if "id_alumno" in alumnos.columns and "alumno" in califs.columns:
+        valid_ids = {x for x in alumnos["id_alumno"].astype(str).tolist() if x and x.strip()}
+        if valid_ids:
+            califs = califs[califs["alumno"].astype(str).isin(valid_ids)].copy()
         else:
-            ids_baja = set()
+            print(
+                f"[SILVER] Aviso: id_alumno vacío en {year_label} -> NO se filtran calificaciones para no perder datos."
+            )
 
-        # Filtramos calificaciones: quitamos las de alumnos de baja
-        if "alumno" not in califs.columns:
-            raise ValueError(f"Falta columna alumno en {califs_in}")
+    # ✅ Evaluaciones: normalizar + quitar extraordinarias (blancos)
+    # OJO: no aplicamos regla 1º/2º/CE aquí porque en tu caso estaba eliminando 1 y 2.
+    if "evaluacion" in califs.columns:
+        califs["evaluacion"] = califs["evaluacion"].apply(_norm_eval)
+        califs = califs[califs["evaluacion"] != ""].copy()
 
-        califs_ok = califs[~califs["alumno"].astype(str).isin(ids_baja)].copy()
+    # guardar silver
+    alumnos.to_csv(silver / f"alumnos_silver_{year_label}.csv", index=False)
+    modulos.to_csv(silver / f"modulos_silver_{year_label}.csv", index=False)
+    cursos.to_csv(silver / f"cursos_silver_{year_label}.csv", index=False)
+    califs.to_csv(silver / f"calificaciones_silver_{year_label}.csv", index=False)
 
-        # Guardamos SILVER (alumnos NO se filtra)
-        alumnos.drop(columns=["__baja__"], errors="ignore").to_csv(
-            silver / f"alumnos_silver_{anyo}.csv", index=False
-        )
-        modulos.to_csv(silver / f"modulos_silver_{anyo}.csv", index=False)
-        cursos.to_csv(silver / f"cursos_silver_{anyo}.csv", index=False)
-        califs_ok.to_csv(silver / f"calificaciones_silver_{anyo}.csv", index=False)
-
-        # LOG
-        log_event(
-            dag_id=dag_id,
-            task_id=task_id,
-            stage="SILVER",
-            status="SUCCESS",
-            anyo=anyo,
-            run_id=run_id,
-            logical_date=logical_date,
-            rows_alumnos=len(alumnos),
-            rows_modulos=len(modulos),
-            rows_cursos=len(cursos),
-            rows_calificaciones=len(califs_ok),
-            message=f"Calificaciones eliminadas para {len(ids_baja)} alumnos de baja",
-        )
-
-    print("✅ SILVER generado por año (calificaciones de bajas eliminadas)")
+    log_event(
+        dag_id=context["dag"].dag_id,
+        task_id=context["task"].task_id,
+        stage="SILVER",
+        status="SUCCESS",
+        anyo=year_label,
+        run_id=context.get("run_id"),
+        logical_date=str(context.get("logical_date")),
+        rows_alumnos=len(alumnos),
+        rows_modulos=len(modulos),
+        rows_cursos=len(cursos),
+        rows_calificaciones=len(califs),
+        message="SILVER generado desde BRONZE (strip + dedupe + filtro seguro + eval normalizada sin extraordinarias)",
+    )

@@ -1,0 +1,20 @@
+{"timestamp":"2026-02-19T13:31:34.807844","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/include/bd.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-19T13:32:06.701870","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/include/bd.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-19T13:32:33.726963","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/include/bd.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-19T13:32:33.737387","level":"info","event":"File /opt/airflow/dags/include/bd.py assumed to contain no DAGs. Skipping.","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-19T13:32:44.687617","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/include/bd.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-19T13:32:44.724579","level":"info","event":"File /opt/airflow/dags/include/bd.py assumed to contain no DAGs. Skipping.","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-19T13:33:14.943822","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/include/bd.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-19T13:33:14.957309","level":"info","event":"File /opt/airflow/dags/include/bd.py assumed to contain no DAGs. Skipping.","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-19T13:33:46.045348","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/include/bd.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-19T13:33:46.056294","level":"info","event":"File /opt/airflow/dags/include/bd.py assumed to contain no DAGs. Skipping.","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-19T13:34:16.692228","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/include/bd.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-19T13:34:16.702442","level":"info","event":"File /opt/airflow/dags/include/bd.py assumed to contain no DAGs. Skipping.","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-19T13:34:47.160048","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/include/bd.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-19T13:34:47.175097","level":"info","event":"File /opt/airflow/dags/include/bd.py assumed to contain no DAGs. Skipping.","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-19T13:35:17.381824","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/include/bd.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-19T13:35:17.392697","level":"info","event":"File /opt/airflow/dags/include/bd.py assumed to contain no DAGs. Skipping.","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-19T13:35:47.587482","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/include/bd.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-19T13:35:47.596764","level":"info","event":"File /opt/airflow/dags/include/bd.py assumed to contain no DAGs. Skipping.","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-19T13:36:17.816425","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/include/bd.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-19T13:36:17.825378","level":"info","event":"File /opt/airflow/dags/include/bd.py assumed to contain no DAGs. Skipping.","logger":"airflow.models.dagbag.DagBag"}

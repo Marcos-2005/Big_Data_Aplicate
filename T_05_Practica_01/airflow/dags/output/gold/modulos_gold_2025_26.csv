@@ -1,0 +1,514 @@
+anyo,nombre_cas,codigo,curso
+2025_26,Incidentes de ciberseguridad,5021,3315802123
+2025_26,Bastionado de redes y sistemas,5022,3315802123
+2025_26,Puesta en producción segura,5023,3315802123
+2025_26,Análisis forense informático,5024,3315802123
+2025_26,Hacking ético,5025,3315802123
+2025_26,Normativa de ciberseguridad,5026,3315802123
+2025_26,Tutoría Segundo,TU02CF,3306172197
+2025_26,Inglés Técnico II-S / Horario reservado para la docencia en inglés,CV0004,3306172197
+2025_26,Financiación internacional,0825,3306172197
+2025_26,Marketing internacional,0823,3306172197
+2025_26,Comercio digital internacional,0827,3306172197
+2025_26,Sistema de información de mercados,0822,3306172197
+2025_26,Negociación internacional,0824,3306172197
+2025_26,Formación en Centros de Trabajo,0830,3306172197
+2025_26,Medios de pago internacionales,0826,3306172197
+2025_26,Proyecto de comercio internacional,0828,3306172197
+2025_26,Empresas simuladas. Herramientas informáticas de la Comunidad Portuaria,CV0010,3306172197
+2025_26,Tutoría Primero,TU01CF,3306172205
+2025_26,Inglés Técnico I-S / Horario reservado para la docencia en inglés,CV0003,3306172205
+2025_26,Inglés profesional GS,0179,3306172205
+2025_26,Transporte internacional de mercancías,0622,3306172205
+2025_26,Formación y orientación laboral.,0829,3306172205
+2025_26,Logística de almacenamiento,0625,3306172205
+2025_26,Gestión económica y financiera de la empresa,0623,3306172205
+2025_26,Gestión administrativa del comercio internacional,0627,3306172205
+2025_26,Ofimática y proceso de la información en el comercio internacional,CV0008,3306172205
+2025_26,Gestión portuaria,CV0009,3306172205
+2025_26,Tutoría Primero,TU01CF,3306172240
+2025_26,Inglés Técnico I-S / Horario reservado para la docencia en inglés,CV0003,3306172240
+2025_26,Inglés profesional GS,0179,3306172240
+2025_26,Gestión económica y financiera de la empresa,0623,3306172240
+2025_26,Políticas de marketing,0930,3306172240
+2025_26,Marketing digital,0931,3306172240
+2025_26,Investigación comercial,1010,3306172240
+2025_26,Formación y orientación laboral,1014,3306172240
+2025_26,Tutoría Segundo,TU02CF,3306172247
+2025_26,Inglés Técnico II-S / Horario reservado para la docencia en inglés,CV0004,3306172247
+2025_26,Diseño y elaboración de material de comunicación,1007,3306172247
+2025_26,Medios y soportes de comunicación,1008,3306172247
+2025_26,Relaciones públicas y organización de eventos de marketing,1009,3306172247
+2025_26,Trabajo de campo en la investigación comercial,1011,3306172247
+2025_26,Lanzamiento de productos y servicios,1109,3306172247
+2025_26,"Atención al cliente, consumidor y usuario",1110,3306172247
+2025_26,Proyecto de marketing y publicidad,1012,3306172247
+2025_26,Formación en centros de trabajo,1013,3306172247
+2025_26,Tutoría Primero,TU01CF,3306172440
+2025_26,Inglés Técnico I-S / Horario reservado para la docencia en inglés,CV0003,3306172440
+2025_26,Inglés profesional GS,0179,3306172440
+2025_26,Formación y Orientación Laboral,0401,3306172440
+2025_26,Estructura del mercado turístico,0171,3306172440
+2025_26,Destinos turísticos,0383,3306172440
+2025_26,Recursos turísticos,0384,3306172440
+2025_26,Protocolo y relaciones públicas,0172,3306172440
+2025_26,Marketing turístico,0173,3306172440
+2025_26,Tutoría Segundo,TU02CF,3306172447
+2025_26,Inglés Técnico II-S / Horario reservado para la docencia en inglés,CV0004,3306172447
+2025_26,Venta de servicios turísticos,0398,3306172447
+2025_26,Segunda lengua extranjera,0180,3306172447
+2025_26,Formación en Centros de Trabajo,0403,3306172447
+2025_26,Proyecto de Agencias de viajes,0400,3306172447
+2025_26,Empresa e iniciativa emprendedora,0402,3306172447
+2025_26,Dirección de entidades de intermedi,0399,3306172447
+2025_26,Gestión de productos turísticos,0397,3306172447
+2025_26,Tutoría Primero,TU01CF,3306172461
+2025_26,Inglés Técnico I-S / Horario reservado para la docencia en inglés,CV0003,3306172461
+2025_26,Inglés profesional GS,0179,3306172461
+2025_26,Estructura del mercado turístico,0171,3306172461
+2025_26,Destinos turísticos,0383,3306172461
+2025_26,Recursos turísticos,0384,3306172461
+2025_26,Protocolo y relaciones públicas,0172,3306172461
+2025_26,Marketing turístico,0173,3306172461
+2025_26,Formación y orientación laboral,0389,3306172461
+2025_26,Tutoría Segundo,TU02CF,3306172468
+2025_26,Inglés Técnico II-S / Horario reservado para la docencia en inglés,CV0004,3306172468
+2025_26,Segunda lengua extranjera,0180,3306172468
+2025_26,Servicios de información turística,0385,3306172468
+2025_26,"Proyecto de Guía, información y asistencia turísticas",0388,3306172468
+2025_26,Empresa e iniciativa emprendedora,0390,3306172468
+2025_26,Formación en Centros de Trabajo,0391,3306172468
+2025_26,Diseño de productos turísticos,0387,3306172468
+2025_26,Procesos de guía y asistencia,0386,3306172468
+2025_26,Sostenibilidad aplicada al sistema productivo,1708039,3306172482
+2025_26,Módulo optativo,CVOPT,3306172482
+2025_26,Proyecto intermodular 2 de Gestión de alojamientos turísticos,0181s,3306172482
+2025_26,Digitalización aplicada al sistema productivo GS,1665039,3306172482
+2025_26,Tutoría Segundo,TU02CF,3306172482
+2025_26,Segunda lengua extranjera,0180,3306172482
+2025_26,Recepción y reservas,0176,3306172482
+2025_26,Comercialización de eventos,0178,3306172482
+2025_26,Gestión del departamento de pisos,0175,3306172482
+2025_26,Itinerario personal para la empleabilidad II,1710,3306172482
+2025_26,Itinerario personal para la empleabilidad I,1709,3306172484
+2025_26,Proyecto intermodular 1 de Gestión de alojamientos turísticos,0181p,3306172484
+2025_26,Tutoría Primero,TU01CF,3306172484
+2025_26,Inglés profesional GS,0179,3306172484
+2025_26,Estructura del mercado turístico,0171,3306172484
+2025_26,Protocolo y relaciones públicas,0172,3306172484
+2025_26,Marketing turístico,0173,3306172484
+2025_26,Dirección de alojamientos turístico,0174,3306172484
+2025_26,Recursos humanos en el alojamiento,0177,3306172484
+2025_26,Sostenibilidad aplicada al sistema productivo,1708190,3306169591
+2025_26,Proyecto intermodular Sistemas microinformáticos y redes,1713707,3306169591
+2025_26,Módulo optativo,CVOPT,3306169591
+2025_26,Digitalización aplicada al sistema productivo GM,1664190,3306169591
+2025_26,Tutoría Segundo,TU02CF,3306169591
+2025_26,Aplicaciones web,0228,3306169591
+2025_26,Seguridad informática,0226,3306169591
+2025_26,Sistemas operativos en red,0224,3306169591
+2025_26,Servicios en red,0227,3306169591
+2025_26,Itinerario personal para la empleabilidad II,1710,3306169591
+2025_26,Itinerario personal para la empleabilidad I,1709,3306169593
+2025_26,Tutoría Primero,TU01CF,3306169593
+2025_26,Redes locales,0225,3306169593
+2025_26,Aplicaciones ofimáticas,0223,3306169593
+2025_26,Montaje y mantenimiento de equipos,0221,3306169593
+2025_26,Sistemas operativos monopuesto,0222,3306169593
+2025_26,Inglés profesional GM,0156,3306169593
+2025_26,Tutoría Primero,TU01CF,3306169607
+2025_26,Inglés Técnico I-M / Horario reservado para la docencia en inglés,CV0001,3306169607
+2025_26,Redes locales,0225,3306169607
+2025_26,Aplicaciones ofimáticas,0223,3306169607
+2025_26,Montaje y mantenimiento de equipos,0221,3306169607
+2025_26,Formación y orientación laboral,0229,3306169607
+2025_26,Sistemas operativos monopuesto,0222,3306169607
+2025_26,Tutoría Segundo,TU02CF,3306169614
+2025_26,Inglés Técnico II-M / Horario reservado para la docencia en inglés,CV0002,3306169614
+2025_26,Empresa e iniciativa emprendedora,0230,3306169614
+2025_26,Aplicaciones web,0228,3306169614
+2025_26,Seguridad informática,0226,3306169614
+2025_26,Sistemas operativos en red,0224,3306169614
+2025_26,Formación en Centros de Trabajo,0231,3306169614
+2025_26,Servicios en red,0227,3306169614
+2025_26,Digitalización aplicada al sistema productivo GS,1665190,3306169635
+2025_26,Sostenibilidad aplicada al sistema productivo,1708190,3306169635
+2025_26,Módulo optativo,CVOPT,3306169635
+2025_26,Proyecto intermodular 2 de Desarrollo de aplicaciones multiplataforma,0492s,3306169635
+2025_26,Tutoría Segundo,TU02CF,3306169635
+2025_26,Sistemas de gestión empresarial,0491,3306169635
+2025_26,Programación de servicios y procesos,0490,3306169635
+2025_26,Programación multimedia y dispositivos móviles,0489,3306169635
+2025_26,Desarrollo de interfaces,0488,3306169635
+2025_26,Acceso a datos,0486,3306169635
+2025_26,Itinerario personal para la empleabilidad II,1710,3306169635
+2025_26,Itinerario personal para la empleabilidad I,1709,3306169637
+2025_26,Proyecto intermodular 1 de Desarrollo de aplicaciones multiplataforma,0492p,3306169637
+2025_26,Tutoría Primero,TU01CF,3306169637
+2025_26,Inglés profesional GS,0179,3306169637
+2025_26,Lenguajes de marcas y sistemas de gestión de información,0373,3306169637
+2025_26,Entornos de desarrollo,0487,3306169637
+2025_26,Programación,0485,3306169637
+2025_26,Bases de Datos,0484,3306169637
+2025_26,Sistemas informáticos,0483,3306169637
+2025_26,Itinerario personal para la empleabilidad I,1709,3306169651
+2025_26,Proyecto intermodular 1 de Desarrollo de aplicaciones WEB,0616p,3306169651
+2025_26,Tutoría Primero,TU01CF,3306169651
+2025_26,Inglés profesional GS,0179,3306169651
+2025_26,Lenguajes de marcas y sistemas de gestión de información,0373,3306169651
+2025_26,Entornos de desarrollo,0487,3306169651
+2025_26,Programación,0485,3306169651
+2025_26,Bases de Datos,0484,3306169651
+2025_26,Sistemas informáticos,0483,3306169651
+2025_26,Digitalización aplicada al sistema productivo GS,1665190,3306169658
+2025_26,Sostenibilidad aplicada al sistema productivo,1708190,3306169658
+2025_26,Módulo optativo,CVOPT,3306169658
+2025_26,Proyecto intermodular 2 de Desarrollo de aplicaciones WEB,0616s,3306169658
+2025_26,Tutoría Segundo,TU02CF,3306169658
+2025_26,Diseño de interfaces WEB,0615,3306169658
+2025_26,Despliegue de aplicaciones WEB,0614,3306169658
+2025_26,Desarrollo WEB en entorno servidor,0613,3306169658
+2025_26,Desarrollo WEB en entorno cliente,0612,3306169658
+2025_26,Itinerario personal para la empleabilidad II,1710,3306169658
+2025_26,Tutoría Segundo,TU02CF,3306169667
+2025_26,Inglés Técnico II-S / Horario reservado para la docencia en inglés,CV0004,3306169667
+2025_26,Formación en centros de trabajo,0619,3306169667
+2025_26,Proyecto de Desarrollo de aplicaciones WEB,0616,3306169667
+2025_26,Empresa e iniciativa emprendedora,0618,3306169667
+2025_26,Diseño de interfaces WEB,0615,3306169667
+2025_26,Despliegue de aplicaciones WEB,0614,3306169667
+2025_26,Desarrollo WEB en entorno servidor,0613,3306169667
+2025_26,Desarrollo WEB en entorno cliente,0612,3306169667
+2025_26,Tutoría Primero,TU01CF,3306169674
+2025_26,Inglés Técnico I-S / Horario reservado para la docencia en inglés,CV0003,3306169674
+2025_26,Lenguajes de marcas y sistemas de gestión de información,0373,3306169674
+2025_26,Entornos de desarrollo,0487,3306169674
+2025_26,Programación,0485,3306169674
+2025_26,Bases de Datos,0484,3306169674
+2025_26,Sistemas informáticos,0483,3306169674
+2025_26,Formación y orientación laboral,0617,3306169674
+2025_26,Tutoría Primero,TU01CF,3306169695
+2025_26,Inglés Técnico I-S / Horario reservado para la docencia en inglés,CV0003,3306169695
+2025_26,Lenguajes de marcas y sistemas de gestión de información,0373,3306169695
+2025_26,Entornos de desarrollo,0487,3306169695
+2025_26,Programación,0485,3306169695
+2025_26,Bases de Datos,0484,3306169695
+2025_26,Sistemas informáticos,0483,3306169695
+2025_26,Formación y orientación laboral,0493,3306169695
+2025_26,Tutoría Segundo,TU02CF,3306169702
+2025_26,Inglés Técnico II-S / Horario reservado para la docencia en inglés,CV0004,3306169702
+2025_26,Formación en centros de trabajo,0495,3306169702
+2025_26,Proyecto de Desarrollo de aplicaciones multiplataforma,0492,3306169702
+2025_26,Empresa e iniciativa emprendedora,0494,3306169702
+2025_26,Sistemas de gestión empresarial,0491,3306169702
+2025_26,Programación de servicios y procesos,0490,3306169702
+2025_26,Programación multimedia y dispositivos móviles,0489,3306169702
+2025_26,Desarrollo de interfaces,0488,3306169702
+2025_26,Acceso a datos,0486,3306169702
+2025_26,Tutoría Primero,TU01CF,3306169723
+2025_26,Inglés Técnico I-S / Horario reservado para la docencia en inglés,CV0003,3306169723
+2025_26,Planificación y Administración de Redes,0370,3306169723
+2025_26,Lenguajes de marcas y sistemas de gestión de información,0373,3306169723
+2025_26,Fundamentos de Hardware,0371,3306169723
+2025_26,Gestión de Bases de Datos,0372,3306169723
+2025_26,Formación y orientación laboral,0380,3306169723
+2025_26,Implantación de Sistemas Operativos,0369,3306169723
+2025_26,Tutoría Segundo,TU02CF,3306169730
+2025_26,Inglés Técnico II-S / Horario reservado para la docencia en inglés,CV0004,3306169730
+2025_26,Empresa e Iniciativa emprendedora,0381,3306169730
+2025_26,Proyecto de Administración de Sistemas Informáticos en Red,0379,3306169730
+2025_26,Seguridad y Alta Disponibilidad,0378,3306169730
+2025_26,Servicios de Red e Internet,0375,3306169730
+2025_26,Formación en Centros de Trabajo,0382,3306169730
+2025_26,Administración de Sistemas Gestores de Bases de Datos,0377,3306169730
+2025_26,Implantación de Aplicaciones Web,0376,3306169730
+2025_26,Administración de Sistemas Operativos,0374,3306169730
+2025_26,Itinerario personal para la empleabilidad I,1709,3306169744
+2025_26,Proyecto intermodular 1 de Administración de Sistemas Informáticos en Red,0379p,3306169744
+2025_26,Tutoría Primero,TU01CF,3306169744
+2025_26,Inglés profesional GS,0179,3306169744
+2025_26,Planificación y Administración de Redes,0370,3306169744
+2025_26,Lenguajes de marcas y sistemas de gestión de información,0373,3306169744
+2025_26,Fundamentos de Hardware,0371,3306169744
+2025_26,Gestión de Bases de Datos,0372,3306169744
+2025_26,Implantación de Sistemas Operativos,0369,3306169744
+2025_26,Digitalización aplicada al sistema productivo GS,1665190,3306169751
+2025_26,Sostenibilidad aplicada al sistema productivo,1708190,3306169751
+2025_26,Módulo optativo,CVOPT,3306169751
+2025_26,Proyecto intermodular 2 de Administración de Sistemas Informáticos en Red,0379s,3306169751
+2025_26,Tutoría Segundo,TU02CF,3306169751
+2025_26,Seguridad y Alta Disponibilidad,0378,3306169751
+2025_26,Servicios de Red e Internet,0375,3306169751
+2025_26,Administración de Sistemas Gestores de Bases de Datos,0377,3306169751
+2025_26,Implantación de Aplicaciones Web,0376,3306169751
+2025_26,Administración de Sistemas Operativos,0374,3306169751
+2025_26,Itinerario personal para la empleabilidad II,1710,3306169751
+2025_26,Proyecto Intermodular Gestión administrativa,1713472,3306173995
+2025_26,Módulo optativo,CVOPT,3306173995
+2025_26,Digitalización aplicada al sistema productivo GM,1664001,3306173995
+2025_26,Sostenibilidad aplicada al sistema productivo,1708001,3306173995
+2025_26,Tutoría Segundo,TU02CF,3306173995
+2025_26,Empresa en el aula,0446,3306173995
+2025_26,Tratamiento de la documentación contable,0443,3306173995
+2025_26,Operaciones administrativas de recursos humanos,0442,3306173995
+2025_26,Operaciones auxiliares de gestión de tesorería,0448,3306173995
+2025_26,Itinerario personal para la empleabilidad II,1710,3306173995
+2025_26,Itinerario personal para la empleabilidad I,1709,3306173997
+2025_26,Tutoría Primero,TU01CF,3306173997
+2025_26,Comunicación empresarial y atención al cliente,0437,3306173997
+2025_26,Técnica contable,0441,3306173997
+2025_26,Empresa y administración,0439,3306173997
+2025_26,Operaciones administrativa de compra-venta,0438,3306173997
+2025_26,Tratamiento informático de la información,0440,3306173997
+2025_26,Inglés profesional GM,0156,3306173997
+2025_26,Tutoría Primero,TU01CF,3306174011
+2025_26,Inglés Técnico I-M / Horario reservado para la docencia en inglés,CV0001,3306174011
+2025_26,Comunicación empresarial y atención al cliente,0437,3306174011
+2025_26,Formación y orientación laboral,0449,3306174011
+2025_26,Técnica contable,0441,3306174011
+2025_26,Empresa y administración,0439,3306174011
+2025_26,Operaciones administrativa de compra-venta,0438,3306174011
+2025_26,Tratamiento informático de la información,0440,3306174011
+2025_26,Inglés profesional GM,0156,3306174011
+2025_26,Tutoría Segundo,TU02CF,3306174018
+2025_26,Inglés Técnico II-M / Horario reservado para la docencia en inglés,CV0002,3306174018
+2025_26,Empresa en el aula,0446,3306174018
+2025_26,Tratamiento de la documentación contable,0443,3306174018
+2025_26,Operaciones administrativas de recursos humanos,0442,3306174018
+2025_26,Formación en centros de trabajo,0451,3306174018
+2025_26,Operaciones auxiliares de gestión de tesorería,0448,3306174018
+2025_26,Módulo optativo,CVOPT,3306174046
+2025_26,Proyecto intermodular 2 de administración y finanzas,0657s,3306174046
+2025_26,Digitalización aplicada al sistema productivo GS,1665001,3306174046
+2025_26,Sostenibilidad aplicada al sistema productivo,1708001,3306174046
+2025_26,Tutoría Segundo,TU02CF,3306174046
+2025_26,Gestión logística y comercial,0655,3306174046
+2025_26,Gestión de recursos humanos,0652,3306174046
+2025_26,Gestión financiera,0653,3306174046
+2025_26,Simulación empresarial,0656,3306174046
+2025_26,Contabilidad y fiscalidad,0654,3306174046
+2025_26,Itinerario personal para la empleabilidad II,1710,3306174046
+2025_26,Itinerario personal para la empleabilidad I,1709,3306174048
+2025_26,Proyecto intermodular 1 de Administración y Finanzas,0657p,3306174048
+2025_26,Tutoría Primero,TU01CF,3306174048
+2025_26,Inglés profesional GS,0179,3306174048
+2025_26,Comunicación y atención al cliente,0651,3306174048
+2025_26,Proceso integral de la actividad comercial,0650,3306174048
+2025_26,Recursos humanos y responsabilidad social corporativa,0648,3306174048
+2025_26,Ofimática y proceso de la información,0649,3306174048
+2025_26,Gestión de la documentación jurídica y empresarial,0647,3306174048
+2025_26,Tutoría Segundo,TU02CF,3306174099
+2025_26,Inglés Técnico II-S / Horario reservado para la docencia en inglés,CV0004,3306174099
+2025_26,Gestión logística y comercial,0655,3306174099
+2025_26,Proyecto de administración y Finanzas,0657,3306174099
+2025_26,Gestión de recursos humanos,0652,3306174099
+2025_26,Gestión financiera,0653,3306174099
+2025_26,Simulación empresarial,0656,3306174099
+2025_26,Formación en Centros de Trabajo,0660,3306174099
+2025_26,Contabilidad y fiscalidad,0654,3306174099
+2025_26,Tutoría Primero,TU01CF,3306174106
+2025_26,Inglés Técnico I-S / Horario reservado para la docencia en inglés,CV0003,3306174106
+2025_26,Inglés profesional GS,0179,3306174106
+2025_26,Comunicación y atención al cliente,0651,3306174106
+2025_26,Formación y orientación laboral,0658,3306174106
+2025_26,Proceso integral de la actividad comercial,0650,3306174106
+2025_26,Recursos humanos y responsabilidad social corporativa,0648,3306174106
+2025_26,Ofimática y proceso de la información,0649,3306174106
+2025_26,Gestión de la documentación jurídica y empresarial,0647,3306174106
+2025_26,Tutoría Primero,TU01CF,3306170521
+2025_26,Técnicas básicas de enfermería,028502,3306170521
+2025_26,Promoción de la salud y apoyo psicológico al paciente,028504,3306170521
+2025_26,Técnicas de ayuda odontológica/estomatológica,028505,3306170521
+2025_26,Formación y orientación laboral,028001,3306170521
+2025_26,Higiene del medio hospitalario y limpieza de material,028503,3306170521
+2025_26,Operaciones administrativas y documentación sanitaria,028501,3306170521
+2025_26,Relaciones en el equipo de trabajo,028100,3306170521
+2025_26,Tutoría Segundo,TU02CF,3306170528
+2025_26,Formación en Centros de Trabajo,028601,3306170528
+2025_26,Estrategia de contenidos digitales,5123,3306171967
+2025_26,Comunicación en redes sociales,5114,3306171967
+2025_26,Redacción de contenidos digitales,5124,3306171967
+2025_26,Sostenibilidad aplicada al sistema productivo,1708039,3306172330
+2025_26,Módulo optativo,CVOPT,3306172330
+2025_26,Proyecto intermodular 2 de Agencias de viajes,0400s,3306172330
+2025_26,Digitalización aplicada al sistema productivo GS,1665039,3306172330
+2025_26,Tutoría Segundo,TU02CF,3306172330
+2025_26,Venta de servicios turísticos,0398,3306172330
+2025_26,Segunda lengua extranjera,0180,3306172330
+2025_26,Dirección de entidades de intermedi,0399,3306172330
+2025_26,Gestión de productos turísticos,0397,3306172330
+2025_26,Itinerario personal para la empleabilidad II,1710,3306172330
+2025_26,Itinerario personal para la empleabilidad I,1709,3306172332
+2025_26,Proyecto intermodular 1 de Agencias de viajes,0400p,3306172332
+2025_26,Tutoría Primero,TU01CF,3306172332
+2025_26,Inglés profesional GS,0179,3306172332
+2025_26,Estructura del mercado turístico,0171,3306172332
+2025_26,Destinos turísticos,0383,3306172332
+2025_26,Recursos turísticos,0384,3306172332
+2025_26,Protocolo y relaciones públicas,0172,3306172332
+2025_26,Marketing turístico,0173,3306172332
+2025_26,Digitalización aplicada al sistema productivo GS,1665061,3306170617
+2025_26,Sostenibilidad aplicada al sistema productivo,1708061,3306170617
+2025_26,Módulo optativo,CVOPT,3306170617
+2025_26,Proyecto intermodular 2 de Laboratorio clínico y biomédico,1375s,3306170617
+2025_26,Tutoría Segundo,TU02CF,3306170617
+2025_26,Análisis bioquímico,1371,3306170617
+2025_26,Técnicas de inmunodiagnóstico,1372,3306170617
+2025_26,Microbiología clínica,1373,3306170617
+2025_26,Técnicas de análisis hematológico,1374,3306170617
+2025_26,Itinerario personal para la empleabilidad II,1710,3306170617
+2025_26,Itinerario personal para la empleabilidad I,1709,3306170619
+2025_26,Proyecto intermodular 1 de Laboratorio clínico y biomédico,1375p,3306170619
+2025_26,Tutoría Primero,TU01CF,3306170619
+2025_26,Inglés profesional GS,0179,3306170619
+2025_26,Fisiopatología general,1370,3306170619
+2025_26,Gestión de muestras biológicas,1367,3306170619
+2025_26,Técnicas generales de laboratorio,1368,3306170619
+2025_26,Biología molecular y citogenética,1369,3306170619
+2025_26,Itinerario personal para la empleabilidad I,1709,3306172053
+2025_26,Tutoría Primero,TU01CF,3306172053
+2025_26,Inglés profesional GM,0156,3306172053
+2025_26,Marketing en la actividad comercial,1226,3306172053
+2025_26,Gestión de compras,1229,3306172053
+2025_26,Dinamización del punto de venta,1231,3306172053
+2025_26,Procesos de venta,1232,3306172053
+2025_26,Aplicaciones informáticas para el comercio,1233,3306172053
+2025_26,Proyecto Intermodular Actividades comerciales,1713925,3306172060
+2025_26,Módulo optativo,CVOPT,3306172060
+2025_26,Digitalización aplicada al sistema productivo GM,1664020,3306172060
+2025_26,Sostenibilidad aplicada al sistema productivo,1708020,3306172060
+2025_26,Tutoría Segundo,TU02CF,3306172060
+2025_26,Gestión de un pequeño comercio,1227,3306172060
+2025_26,Técnicas de almacén,1228,3306172060
+2025_26,Venta técnica,1230,3306172060
+2025_26,Servicios de atención comercial,1234,3306172060
+2025_26,Comercio electrónico,1235,3306172060
+2025_26,Itinerario personal para la empleabilidad II,1710,3306172060
+2025_26,Tutoría Primero,TU01CF,3306172366
+2025_26,Inglés Técnico I-S / Horario reservado para la docencia en inglés,CV0003,3306172366
+2025_26,Inglés profesional GS,0179,3306172366
+2025_26,Estructura del mercado turístico,0171,3306172366
+2025_26,Protocolo y relaciones públicas,0172,3306172366
+2025_26,Marketing turístico,0173,3306172366
+2025_26,Dirección de alojamientos turístico,0174,3306172366
+2025_26,Formación y orientación laboral,0182,3306172366
+2025_26,Recursos humanos en el alojamiento,0177,3306172366
+2025_26,Tutoría Segundo,TU02CF,3306172373
+2025_26,Inglés Técnico II-S / Horario reservado para la docencia en inglés,CV0004,3306172373
+2025_26,Segunda lengua extranjera,0180,3306172373
+2025_26,Proyecto de Gestión de alojamientos turísticos,0181,3306172373
+2025_26,Formación en Centros de Trabajo,0184,3306172373
+2025_26,Empresa e iniciativa emprendedora,0183,3306172373
+2025_26,Recepción y reservas,0176,3306172373
+2025_26,Comercialización de eventos,0178,3306172373
+2025_26,Gestión del departamento de pisos,0175,3306172373
+2025_26,Itinerario personal para la empleabilidad I,1709,3306172403
+2025_26,"Proyecto intermodular 1 de Guía, información y asistencia turísticas",0388p,3306172403
+2025_26,Tutoría Primero,TU01CF,3306172403
+2025_26,Inglés profesional GS,0179,3306172403
+2025_26,Estructura del mercado turístico,0171,3306172403
+2025_26,Destinos turísticos,0383,3306172403
+2025_26,Recursos turísticos,0384,3306172403
+2025_26,Protocolo y relaciones públicas,0172,3306172403
+2025_26,Marketing turístico,0173,3306172403
+2025_26,Sostenibilidad aplicada al sistema productivo,1708039,3306172410
+2025_26,Módulo optativo,CVOPT,3306172410
+2025_26,"Proyecto intermodular 2 de Guía, información y asistencia turísticas",0388s,3306172410
+2025_26,Digitalización aplicada al sistema productivo GS,1665039,3306172410
+2025_26,Tutoría Segundo,TU02CF,3306172410
+2025_26,Segunda lengua extranjera,0180,3306172410
+2025_26,Servicios de información turística,0385,3306172410
+2025_26,Diseño de productos turísticos,0387,3306172410
+2025_26,Procesos de guía y asistencia,0386,3306172410
+2025_26,Itinerario personal para la empleabilidad II,1710,3306172410
+2025_26,Tutoría Primero,TU01CF,3306169433
+2025_26,Diseño y Fabr. Monturas Ópticas,243265,3306169433
+2025_26,"Anat., Fisiopatol. y Ametropias Oculares",243267,3306169433
+2025_26,At. Cliente Establ. Prod. Ópticos,243266,3306169433
+2025_26,Proc. Fabr. Lentes Oftalmológicas,243264,3306169433
+2025_26,Tutoría Segundo,TU02CF,3306169440
+2025_26,Formación y Orientación Laboral,243602,3306169440
+2025_26,Formación en Centros de Trabajo,243601,3306169440
+2025_26,"Adm., Gest. y Comer. Peq. Empresa",243604,3306169440
+2025_26,Montajes y Reparaciones Ópticas,243271,3306169440
+2025_26,Proc. Fabr. Lentes de Contacto,243270,3306169440
+2025_26,Tutoría Primero,TU01CF,3306170712
+2025_26,Inglés Técnico I-S / Horario reservado para la docencia en inglés,CV0003,3306170712
+2025_26,Fisiopatología general,1370,3306170712
+2025_26,Gestión de muestras biológicas,1367,3306170712
+2025_26,Técnicas generales de laboratorio,1368,3306170712
+2025_26,Biología molecular y citogenética,1369,3306170712
+2025_26,Formación y orientación laboral,1376,3306170712
+2025_26,Tutoría Segundo,TU02CF,3306170719
+2025_26,Inglés Técnico II-S / Horario reservado para la docencia en inglés,CV0004,3306170719
+2025_26,Proyecto de Laboratorio clínico y biomédico,1375,3306170719
+2025_26,Formación en centros de trabajo,1378,3306170719
+2025_26,Análisis bioquímico,1371,3306170719
+2025_26,Técnicas de inmunodiagnóstico,1372,3306170719
+2025_26,Microbiología clínica,1373,3306170719
+2025_26,Técnicas de análisis hematológico,1374,3306170719
+2025_26,Empresa e iniciativa emprendedora,1377,3306170719
+2025_26,Tutoría Primero,TU01CF,3306172105
+2025_26,Inglés Técnico I-M / Horario reservado para la docencia en inglés,CV0001,3306172105
+2025_26,Inglés profesional GM,0156,3306172105
+2025_26,Marketing en la actividad comercial,1226,3306172105
+2025_26,Gestión de compras,1229,3306172105
+2025_26,Dinamización del punto de venta,1231,3306172105
+2025_26,Procesos de venta,1232,3306172105
+2025_26,Aplicaciones informáticas para el comercio,1233,3306172105
+2025_26,Formación y orientación laboral,1236,3306172105
+2025_26,Tutoría Segundo,TU02CF,3306172112
+2025_26,Inglés Técnico II-M / Horario reservado para la docencia en inglés,CV0002,3306172112
+2025_26,Gestión de un pequeño comercio,1227,3306172112
+2025_26,Técnicas de almacén,1228,3306172112
+2025_26,Venta técnica,1230,3306172112
+2025_26,Servicios de atención comercial,1234,3306172112
+2025_26,Comercio electrónico,1235,3306172112
+2025_26,Formación en centros de trabajo,1237,3306172112
+2025_26,Módulo optativo,CVOPT,3306172133
+2025_26,Proyecto intermodular 2 de comercio internacional,0828s,3306172133
+2025_26,Digitalización aplicada al sistema productivo GS,1665020,3306172133
+2025_26,Sostenibilidad aplicada al sistema productivo,1708020,3306172133
+2025_26,Tutoría Segundo,TU02CF,3306172133
+2025_26,Financiación internacional,0825,3306172133
+2025_26,Marketing internacional,0823,3306172133
+2025_26,Comercio digital internacional,0827,3306172133
+2025_26,Sistema de información de mercados,0822,3306172133
+2025_26,Negociación internacional,0824,3306172133
+2025_26,Medios de pago internacionales,0826,3306172133
+2025_26,Itinerario personal para la empleabilidad II,1710,3306172133
+2025_26,Itinerario personal para la empleabilidad I,1709,3306172135
+2025_26,Proyecto intermodular 1 de Comercio internacional,0828p,3306172135
+2025_26,Tutoría Primero,TU01CF,3306172135
+2025_26,Inglés profesional GS,0179,3306172135
+2025_26,Transporte internacional de mercancías,0622,3306172135
+2025_26,Logística de almacenamiento,0625,3306172135
+2025_26,Gestión económica y financiera de la empresa,0623,3306172135
+2025_26,Gestión administrativa del comercio internacional,0627,3306172135
+2025_26,Ofimática y proceso de la información en el comercio internacional,CV0008,3306172135
+2025_26,Gestión portuaria,CV0009,3306172135
+2025_26,Módulo optativo,CVOPT,3306172165
+2025_26,Proyecto intermodular 2 de marketing y publicidad,1012s,3306172165
+2025_26,Digitalización aplicada al sistema productivo GS,1665020,3306172165
+2025_26,Sostenibilidad aplicada al sistema productivo,1708020,3306172165
+2025_26,Tutoría Segundo,TU02CF,3306172165
+2025_26,Diseño y elaboración de material de comunicación,1007,3306172165
+2025_26,Medios y soportes de comunicación,1008,3306172165
+2025_26,Relaciones públicas y organización de eventos de marketing,1009,3306172165
+2025_26,Trabajo de campo en la investigación comercial,1011,3306172165
+2025_26,Lanzamiento de productos y servicios,1109,3306172165
+2025_26,"Atención al cliente, consumidor y usuario",1110,3306172165
+2025_26,Itinerario personal para la empleabilidad II,1710,3306172165
+2025_26,Itinerario personal para la empleabilidad I,1709,3306172167
+2025_26,Proyecto intermodular 1 de marketing y publicidad,1012p,3306172167
+2025_26,Tutoría Primero,TU01CF,3306172167
+2025_26,Inglés profesional GS,0179,3306172167
+2025_26,Gestión económica y financiera de la empresa,0623,3306172167
+2025_26,Políticas de marketing,0930,3306172167
+2025_26,Marketing digital,0931,3306172167
+2025_26,Investigación comercial,1010,3306172167
+2025_26,Modelos de Inteligencia Artificial,5071,3315804631
+2025_26,Sistemas de aprendizaje automático,5072,3315804631
+2025_26,Programación de Inteligencia Artificial,5073,3315804631
+2025_26,Sistemas de Big Data,5074,3315804631
+2025_26,Big Data aplicado,5075,3315804631

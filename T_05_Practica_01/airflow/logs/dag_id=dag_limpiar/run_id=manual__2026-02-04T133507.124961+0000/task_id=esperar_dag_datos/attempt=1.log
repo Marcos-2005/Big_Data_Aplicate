@@ -1,0 +1,196 @@
+{"timestamp":"2026-02-04T13:35:07.761024","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:35:07.761820","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:35:08.110710","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:35:08.142051","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:35:39.081137","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:35:39.082122","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:35:39.498783","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:35:39.508389","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:36:10.546554","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:36:10.547503","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:36:11.026359","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:36:11.038476","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:36:42.575923","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:36:42.576468","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:36:43.439305","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:36:43.451856","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:37:13.968494","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:37:13.969237","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:37:14.371333","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:37:14.380986","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:37:45.310310","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:37:45.311441","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:37:45.758631","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:37:45.769138","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:38:17.072310","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:38:17.073587","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:38:17.636371","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:38:17.647866","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:38:48.485113","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:38:48.485799","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:38:48.889733","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:38:48.899123","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:39:19.313047","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:39:19.313978","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:39:19.735171","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:39:19.744533","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:39:50.634676","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:39:50.635323","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:39:51.060246","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:39:51.070454","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:40:21.971555","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:40:21.972368","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:40:22.371674","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:40:22.381963","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:40:53.187154","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:40:53.187824","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:40:53.582929","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:40:53.593363","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:41:24.474960","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:41:24.476000","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:41:24.942925","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:41:24.954915","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:41:55.620371","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:41:55.626544","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:41:56.035986","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:41:56.045663","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:42:27.359415","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:42:27.360112","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:42:27.934949","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:42:27.945468","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:42:58.477405","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:42:58.478260","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:42:58.872380","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:42:58.882586","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:43:29.943215","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:43:29.943810","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:43:30.308594","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:43:30.318439","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:44:01.220723","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:44:01.221298","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:44:01.574913","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:44:01.582374","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:44:32.725460","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:44:32.726196","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:44:33.491516","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:44:33.499875","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:45:04.156354","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:45:04.157021","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:45:04.512799","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:45:04.520428","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:45:35.368307","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:45:35.369079","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:45:35.779469","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:45:35.788435","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:46:06.449373","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:46:06.449947","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:46:06.774854","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:46:06.781528","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:46:37.580574","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:46:37.581396","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:46:37.926628","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:46:37.934356","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:47:08.640396","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:47:08.640994","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:47:09.008546","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:47:09.016711","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:47:39.991403","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:47:39.993082","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:47:40.492450","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:47:40.501039","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:48:11.190238","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:48:11.191074","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:48:11.570617","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:48:11.579896","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:48:42.450701","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:48:42.451354","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:48:42.821605","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:48:42.831135","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:49:13.780843","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:49:13.781576","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:49:14.145040","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:49:14.154461","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:49:44.932140","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:49:44.932931","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:49:45.329469","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:49:45.343695","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:50:16.309046","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:50:16.309565","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:50:16.664882","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:50:16.672559","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:50:47.634047","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:50:47.637997","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:50:48.068976","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:50:48.076302","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:51:18.701944","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:51:18.702758","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:51:19.055880","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:51:19.063301","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:51:49.511158","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:51:49.512458","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:51:49.984028","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:51:49.996480","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:52:20.771067","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:52:20.772236","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:52:21.326805","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:52:21.342944","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:52:52.608290","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:52:52.610065","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:52:53.080332","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:52:53.089458","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:53:23.887421","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:53:23.888067","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:53:24.279454","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:53:24.288723","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:53:55.220884","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:53:55.221598","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:53:55.633510","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:53:55.646759","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:54:26.232961","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:54:26.234139","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:54:26.659617","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:54:26.668350","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:54:57.449334","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:54:57.450437","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:54:57.878925","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:54:57.887706","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:55:28.830039","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:55:28.830640","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:55:29.161958","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:55:29.170025","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:56:00.151447","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:56:00.151986","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:56:00.527537","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:56:00.536853","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:58:11.953327","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:58:11.953927","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:58:15.794420","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:58:15.823613","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:58:46.391296","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:58:46.391907","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:58:46.753240","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:58:46.761671","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:59:17.887692","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:59:17.888337","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:59:18.274721","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:59:18.284255","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T13:59:49.196099","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T13:59:49.196864","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T13:59:49.572843","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T13:59:49.582220","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T14:00:20.498871","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T14:00:20.499661","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T14:00:20.899858","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T14:00:20.907973","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T14:00:55.800156","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T14:00:55.800858","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T14:00:56.192682","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T14:00:56.201493","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T14:01:26.785150","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T14:01:26.785934","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T14:01:27.422706","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T14:01:27.432703","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}
+{"timestamp":"2026-02-04T14:01:58.014251","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-04T14:01:58.014816","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_limpiar.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-04T14:01:58.488874","level":"info","event":"Poking for tasks ['xmls_to_bronze'] in dag dag_datos on 2026-02-04T13:35:07.124961+00:00 ... ","logger":"airflow.task.operators.airflow.providers.standard.sensors.external_task.ExternalTaskSensor"}
+{"timestamp":"2026-02-04T14:01:58.498706","level":"info","event":"Rescheduling task, marking task as UP_FOR_RESCHEDULE","logger":"task"}

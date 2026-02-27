@@ -1,0 +1,13 @@
+{"timestamp":"2026-02-23T11:42:49.810878","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2026-02-23T11:42:49.811385","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/dag_bd.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2026-02-23T11:42:50.233716","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-02-23T11:42:50.247898","level":"info","event":"Connection Retrieved 'airflow'","logger":"airflow.hooks.base"}
+{"timestamp":"2026-02-23T11:42:55.023155","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-02-23T11:42:55.037286","level":"info","event":"Connection Retrieved 'airflow'","logger":"airflow.hooks.base"}
+{"timestamp":"2026-02-23T11:43:01.715720","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-02-23T11:43:01.722179","level":"info","event":"Connection Retrieved 'airflow'","logger":"airflow.hooks.base"}
+{"timestamp":"2026-02-23T11:43:09.407410","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-02-23T11:43:09.413388","level":"info","event":"Connection Retrieved 'airflow'","logger":"airflow.hooks.base"}
+{"timestamp":"2026-02-23T11:43:10.758680","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2026-02-23T11:43:10.764959","level":"info","event":"Connection Retrieved 'airflow'","logger":"airflow.hooks.base"}
+{"timestamp":"2026-02-23T11:43:11.838983","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

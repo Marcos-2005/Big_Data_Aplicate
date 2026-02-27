@@ -1,139 +1,113 @@
-import xml.etree.ElementTree as ET
-import pandas as pd
 from pathlib import Path
 import hashlib
-import os
-import re
+import pandas as pd
+import xml.etree.ElementTree as ET
 
 from include.logging_utils import log_event
 
-SALT = os.getenv("ANON_SALT", "salt-secreta-cambia-esto")
 
-
-def hash_id(value: str) -> str:
-    if value is None:
+def sha256(s: str) -> str:
+    s = (s or "").strip()
+    if not s:
         return ""
-    v = value.strip().upper()
-    if v == "":
-        return ""
-    return hashlib.sha256((SALT + v).encode("utf-8")).hexdigest()
+    return hashlib.sha256(s.encode("utf-8")).hexdigest()
 
 
-def _anyo_from_filename(xml_path: str) -> int:
-    """
-    varios_25-26_... -> 2025
-    varios_24-25_... -> 2024
-    varios_23-24_... -> 2023
-    """
-    name = Path(xml_path).name
-    m = re.search(r"varios_(\d{2})-\d{2}", name)
-    if not m:
-        raise ValueError(f"No puedo extraer año del archivo: {name}")
-    yy = int(m.group(1))
-    return 2000 + yy
+def _pick(node: ET.Element, *keys: str) -> str:
+    for k in keys:
+        v = node.get(k)
+        if v and str(v).strip():
+            return str(v).strip()
+
+    for k in keys:
+        child = node.find(k)
+        if child is not None and (child.text or "").strip():
+            return child.text.strip()
+
+    return ""
 
 
-def _extract_tables_from_xml(xml_path: str):
-    tree = ET.parse(xml_path)
-    root = tree.getroot()
+def _extract_tables_from_xml(xml_path: Path, year_label: str):
+    root = ET.parse(xml_path).getroot()
 
     alumnos = []
     for a in root.findall(".//alumno"):
+        raw_id = _pick(
+            a,
+            "id_alumno", "id", "nia", "NIA", "nie", "NIE", "documento", "DOCUMENTO", "identificador", "IDENTIFICADOR"
+        )
         alumnos.append({
-            "id_alumno": a.get("NIA"),
-            "documento_hash": hash_id(a.get("documento")),
-            "fecha_nac": a.get("fecha_nac"),
-            "sexo": a.get("sexo"),
-            "estado_matricula": a.get("estado_matricula"),
-            "curso": a.get("curso"),
-            "grupo": a.get("grupo"),
-            "turno": a.get("turno"),
+            "anyo": year_label,
+            "id_alumno": sha256(raw_id),
+            "fecha_nac": _pick(a, "fecha_nac", "fechaNacimiento", "fecha_nacimiento", "FECHA_NAC", "FECHA_NACIMIENTO"),
+            "sexo": _pick(a, "sexo", "SEXO"),
+            "estado_matricula": _pick(a, "estado_matricula", "ESTADO_MATRICULA"),
+            "curso": _pick(a, "curso", "CURSO"),
+            "grupo": _pick(a, "grupo", "GRUPO"),
+            "turno": _pick(a, "turno", "TURNO"),
         })
 
     modulos = []
     for m in root.findall(".//contenido"):
         modulos.append({
-            "codigo": m.get("codigo"),
-            "nombre_cas": m.get("nombre_cas"),
-            "curso": m.get("curso"),
+            "anyo": year_label,
+            "codigo": _pick(m, "codigo", "CODIGO", "id", "ID"),
+            "nombre_cas": _pick(m, "nombre_cas", "NOMBRE_CAS", "nombre", "NOMBRE"),
+            "curso": _pick(m, "curso", "CURSO"),
         })
 
     cursos = []
     for c in root.findall(".//curso"):
         cursos.append({
-            "codigo": c.get("codigo"),
-            "nombre_cas": c.get("nombre_cas"),
-            "padre": c.get("padre"),
+            "anyo": year_label,
+            "codigo": _pick(c, "codigo", "CODIGO", "id", "ID"),
+            "nombre_cas": _pick(c, "nombre_cas", "NOMBRE_CAS", "nombre", "NOMBRE"),
+            "padre": _pick(c, "padre", "PADRE"),
         })
 
     califs = []
-    for c in root.findall(".//calificacion"):
+    for cal in root.findall(".//calificacion"):
+        raw_al = _pick(cal, "alumno", "ALUMNO", "id_alumno", "ID_ALUMNO", "nia", "NIA", "nie", "NIE")
         califs.append({
-            "alumno": c.get("alumno"),
-            "curso": c.get("curso"),
-            "contenido": c.get("contenido"),
-            "nota_numerica": c.get("nota_numerica"),
-            "evaluacion": c.get("evaluacion"),
+            "anyo": year_label,
+            "alumno": sha256(raw_al),  # ✅ para que case con alumnos.id_alumno
+            "curso": _pick(cal, "curso", "CURSO"),
+            "contenido": _pick(cal, "contenido", "CONTENIDO", "modulo", "MODULO", "codigo_modulo", "CODIGO_MODULO"),
+            "nota_numerica": _pick(cal, "nota_numerica", "NOTA_NUMERICA", "nota", "NOTA"),
+            "evaluacion": _pick(cal, "evaluacion", "EVALUACION"),
         })
 
     return alumnos, modulos, cursos, califs
 
 
-def xmls_to_bronze(itaca_dir: str, out_dir: str, **context):
-    itaca_dir = Path(itaca_dir)
+def xml_to_bronze(xml_path: str, year_label: str, out_dir: str, **context):
+    xml_path = Path(xml_path)
     out_dir = Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    # Coge TODOS los .xml que haya
-    xml_paths = sorted([str(p) for p in itaca_dir.glob("*.xml")])
+    alumnos, modulos, cursos, califs = _extract_tables_from_xml(xml_path, year_label)
 
-    if not xml_paths:
-        raise FileNotFoundError(f"No hay XML en {itaca_dir}")
+    df_al = pd.DataFrame(alumnos).drop_duplicates()
+    df_mo = pd.DataFrame(modulos).drop_duplicates()
+    df_cu = pd.DataFrame(cursos).drop_duplicates()
+    df_ca = pd.DataFrame(califs).drop_duplicates()
 
-    dag_id = context.get("dag").dag_id if context.get("dag") else "dag_datos"
-    task_id = context.get("task").task_id if context.get("task") else "xmls_to_bronze"
-    run_id = context.get("run_id")
-    logical_date = str(context.get("logical_date")) if context.get("logical_date") else None
+    df_al.to_csv(out_dir / f"alumnos_bronze_{year_label}.csv", index=False)
+    df_mo.to_csv(out_dir / f"modulos_bronze_{year_label}.csv", index=False)
+    df_cu.to_csv(out_dir / f"cursos_bronze_{year_label}.csv", index=False)
+    df_ca.to_csv(out_dir / f"calificaciones_bronze_{year_label}.csv", index=False)
 
-    # Agrupar por año
-    grouped: dict[int, list[str]] = {}
-    for p in xml_paths:
-        anyo = _anyo_from_filename(p)
-        grouped.setdefault(anyo, []).append(p)
-
-    for anyo, paths in grouped.items():
-        all_alumnos, all_modulos, all_cursos, all_califs = [], [], [], []
-
-        for p in paths:
-            alumnos, modulos, cursos, califs = _extract_tables_from_xml(p)
-            all_alumnos.extend(alumnos)
-            all_modulos.extend(modulos)
-            all_cursos.extend(cursos)
-            all_califs.extend(califs)
-
-        df_al = pd.DataFrame(all_alumnos).drop_duplicates()
-        df_mo = pd.DataFrame(all_modulos).drop_duplicates()
-        df_cu = pd.DataFrame(all_cursos).drop_duplicates()
-        df_ca = pd.DataFrame(all_califs).drop_duplicates()
-
-        df_al.to_csv(out_dir / f"alumnos_bronze_{anyo}.csv", index=False)
-        df_mo.to_csv(out_dir / f"modulos_bronze_{anyo}.csv", index=False)
-        df_cu.to_csv(out_dir / f"cursos_bronze_{anyo}.csv", index=False)
-        df_ca.to_csv(out_dir / f"calificaciones_bronze_{anyo}.csv", index=False)
-
-        log_event(
-            dag_id=dag_id,
-            task_id=task_id,
-            stage="BRONZE",
-            status="SUCCESS",
-            anyo=anyo,
-            run_id=run_id,
-            logical_date=logical_date,
-            rows_alumnos=len(df_al),
-            rows_modulos=len(df_mo),
-            rows_cursos=len(df_cu),
-            rows_calificaciones=len(df_ca),
-            message=f"BRONZE generado desde {len(paths)} XML(s) encontrados en {itaca_dir} para año {anyo}",
-        )
-
-    print("✅ BRONZE generado por año desde todos los XML detectados")
+    log_event(
+        dag_id=context["dag"].dag_id,
+        task_id=context["task"].task_id,
+        stage="BRONZE",
+        status="SUCCESS",
+        anyo=year_label,
+        run_id=context.get("run_id"),
+        logical_date=str(context.get("logical_date")),
+        rows_alumnos=len(df_al),
+        rows_modulos=len(df_mo),
+        rows_cursos=len(df_cu),
+        rows_calificaciones=len(df_ca),
+        message=f"BRONZE generado desde XML: {xml_path.name} (IDs hasheados)",
+    )
